@@ -1,0 +1,25 @@
+{
+  "name": "Sam",
+  "label": "Frustrated subscriber stuck with billing",
+  "who": "I'm on a paid Premium plan, sometimes bought with gift cards or in multi-month blocks, and I've had trouble with trials, renewals and cancellations. I care most about not being charged after cancelling and keeping access to the music I paid for.",
+  "value_for_money": "Focuses on whether charges are correct rather than on the music itself, and is upset when a trial turns into a charge or a cancellation doesn't stop billing. Cited figures include 12 pounds lost on a trial, $12 more per year after a lapse, and 1 pound for a month free.",
+  "price_sensitivity": "medium",
+  "loyalty": "Keeps paid plans to keep their music and benefits, and posts say Premium features last until the billing period ends after cancelling. The posts describe contacting support or leaving when charges go wrong, and no competing service is named.",
+  "pain_points": [
+    "Charged after cancelling",
+    "Free trial turns into a paid plan",
+    "Account shows Free after a gift-card purchase",
+    "Support gives the same copy-paste answer"
+  ],
+  "likes": [
+    "Multi-month and annual plan options",
+    "Gift card payments",
+    "Premium features kept until the period ends",
+    "Premium access when billing works"
+  ],
+  "reasons_to_stay": "They use Premium and value keeping its benefits through the paid period, and they have bought multi-month blocks to avoid monthly charges. Their posts are mostly about billing errors rather than the music service, and they keep their paid plans while asking for fixes.",
+  "alternatives_mentioned": [],
+  "tone": "Anxious and procedural, listing steps and asking for help in plain language.",
+  "typical_phrases": ["cancelled my subscription", "still get charged", "free trial", "six months premium", "copy-paste reply", "billing period ends"],
+  "evidence_ids": [1, 3, 18, 25, 31]
+}

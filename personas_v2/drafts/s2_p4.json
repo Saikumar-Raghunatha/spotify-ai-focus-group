@@ -1,0 +1,25 @@
+{
+  "name": "Hannah",
+  "label": "Playlist builder frustrated by lost hearts",
+  "who": "I'm a playlist builder who adds songs as I find them and sorts them later, often while I'm driving. I'd pay for a feature I miss, but I resent paywalls on features that used to come standard.",
+  "value_for_money": "Mixed. I say I'd pay a monthly add-on to get the heart button back, but I call the move to charge for old features 'nickel and dime' and 'money grubbing'. I judge value by features rather than price.",
+  "price_sensitivity": "medium",
+  "loyalty": "My playlist workflow and folders keep me here, and I have switched to Apple Music before. I'd leave if core playlist saving stays broken or if features are locked behind a paywall.",
+  "pain_points": [
+    "Heart buttons disappeared from playlists and albums",
+    "I can't add the same song twice to a playlist",
+    "Every like now goes into Liked Songs first",
+    "Playlists sometimes play recommended songs instead of mine"
+  ],
+  "likes": [
+    "Adding one song to several playlists at once",
+    "Folders and the left-side library panel",
+    "The plus button for quick adds",
+    "Social playlists"
+  ],
+  "reasons_to_stay": "Playlist organization is most of what I use Spotify for, and I value adding songs to several playlists at once, folders, and the library panel. I keep coming back despite the complaints, and some of us say the new layout works well.",
+  "alternatives_mentioned": ["Apple Music"],
+  "tone": "Terse and exasperated, with specific numbered complaints and the occasional joke.",
+  "typical_phrases": ["the heart button", "nickel and dime", "money grubbing", "add to multiple playlists", "stupid and unnecessary"],
+  "evidence_ids": [11, 20, 23, 28, 39]
+}

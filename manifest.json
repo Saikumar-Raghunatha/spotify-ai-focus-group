@@ -1,0 +1,91 @@
+{
+  "project": "Synthetic Focus Group: Spotify price-hike back-test",
+  "actor": "fatihtahta/reddit-scraper-search-fast",
+  "event_1_primary": {
+    "name": "Spotify US Premium price hike",
+    "leak_date": "2023-07-21 (WSJ reported the hike coming)",
+    "announcement_date": "2023-07-24",
+    "change": "Premium Individual $9.99 -> $10.99 (Duo $14.99, Family $16.99, Student $5.99)",
+    "pre_event_window_for_personas": "2022-07-21 to 2023-07-20",
+    "leak_gap_excluded": "2023-07-21 to 2023-07-23",
+    "post_event_window_ground_truth": "2023-07-24 to 2023-08-07"
+  },
+  "datasets": [
+    {
+      "path": "arctic_spotify_pre.jsonl",
+      "label": "PRE Arctic Shift full r/spotify + r/truespotify",
+      "phase_expected": "pre",
+      "use": true
+    },
+    {
+      "path": "arctic_spotify_post.jsonl",
+      "label": "POST Arctic Shift full r/spotify + r/truespotify",
+      "phase_expected": "post",
+      "use": true
+    },
+    {
+      "id": "Q23nhYb9xND2nULLC",
+      "label": "PRE r/spotify keyword search",
+      "phase_expected": "pre",
+      "use": true
+    },
+    {
+      "id": "dvbjkvnghq5NorJdL",
+      "label": "PRE r/truespotify keyword search",
+      "phase_expected": "pre",
+      "use": true
+    },
+    {
+      "id": "tl5eSKzgm3ynLJ36A",
+      "label": "PRE global search (top)",
+      "phase_expected": "pre",
+      "use": true
+    },
+    {
+      "id": "mZhp2mdZMqWr7HEHZ",
+      "label": "POST r/spotify keyword search",
+      "phase_expected": "post",
+      "use": true
+    },
+    {
+      "id": "hJAXrfHweCj4RTADP",
+      "label": "POST r/truespotify keyword search",
+      "phase_expected": "post",
+      "use": true
+    },
+    {
+      "id": "CkeLfirjgZ4nkxSYi",
+      "label": "POST global search (top)",
+      "phase_expected": "post",
+      "use": true
+    },
+    {
+      "id": "VWCIB9oXaLW6B6fAq",
+      "label": "POST r/AppleMusic keyword search",
+      "phase_expected": "post",
+      "use": true
+    },
+    {
+      "id": "FQtskPn7HRTduAVi2",
+      "label": "POST global search (relevance, 12 queries)",
+      "phase_expected": "post",
+      "use": true
+    },
+    {
+      "id": "IEFtWBH7VHu5Mgbrh",
+      "label": "POST test run (also catches leak-window posts)",
+      "phase_expected": "post",
+      "use": true
+    }
+  ],
+  "empty_or_failed_runs_ignored": [
+    "r/Music keyword search (0 results)",
+    "global searches sorted by 'new' (0 results: Reddit search cannot page back to 2023 that way)"
+  ],
+  "notes": [
+    "Phase labels are assigned in the script from each row's OWN timestamp, so a late comment on an old post can never leak into persona data.",
+    "Usernames are hashed, not stored.",
+    "Reddit-only so far. YouTube comments are the fallback if more reaction text is needed.",
+    "Arctic Shift files (path entries) are read locally; Apify datasets (id entries) need APIFY_TOKEN and may have expired. Set \"use\": false on any dataset you no longer want."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Jordan",
+  "label": "Free user puzzled by Premium features",
+  "who": "I use Spotify's free tier and mostly don't pay for Premium, though some features have shown up for me without a purchase. I think Premium should be an optional upgrade, and I resent being asked to pay for features I think should come with the free app.",
+  "value_for_money": "Says paying for Premium is not worth it for the extras, calling $11 a month too much for features they see as non-essential. Feels it is ridiculous to pay for a fraction of Premium's features, and sees the free plan as too restricted to enjoy.",
+  "price_sensitivity": "high",
+  "loyalty": "Stays on the free plan for basic playback, with ads and locked features as the main friction. Some turn to YouTube to hear full albums, and the posts do not say they have left Spotify entirely.",
+  "pain_points": [
+    "Free plan blocks many features",
+    "Premium pricing feels too high for the extras",
+    "Features unlock inconsistently on free accounts",
+    "Ads and skip limits on the free plan"
+  ],
+  "likes": [
+    "Free playback with no payment",
+    "Freedom to pick songs when unlocked",
+    "Unlimited skips when they appear"
+  ],
+  "reasons_to_stay": "They keep using the free app for music and say they can reach many features without paying, which is why they stay. Their complaints focus on paywalled extras and ads rather than on the music library itself.",
+  "alternatives_mentioned": ["YouTube"],
+  "tone": "Exasperated and blunt, with informal slang and questions aimed at the company.",
+  "typical_phrases": ["free plan", "features for free", "why do I have to", "ridiculous at this point", "sick of having to"],
+  "evidence_ids": [7, 30, 34, 35, 36]
+}

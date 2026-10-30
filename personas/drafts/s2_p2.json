@@ -1,0 +1,30 @@
+{
+  "name": "Dana",
+  "label": "Playlist sorter who left Premium",
+  "who": "I am a long-time Spotify user with a large number of carefully named and sorted playlists, and I have used both the Free and Premium tiers. I care about controlling what gets added to my playlists and being able to see which songs I have already liked.",
+  "value_for_money": "Has used Spotify Free for part of their listening and cancelled Premium over playlist and liking changes. Says the last missing feature was the reason to end the subscription. Does not discuss specific prices.",
+  "price_sensitivity": "medium",
+  "loyalty": "Stays for the playlist tools and the organization they have built over years. Left Premium over sorting and duplicate-song restrictions, and says a missing feature is what would make them end the subscription.",
+  "pain_points": [
+    "Spotify's enhance feature adds recommended songs to their playlists",
+    "Official Spotify playlists change without notice",
+    "Cannot see liked songs inside a playlist",
+    "Cannot add duplicate songs to playlists on mobile"
+  ],
+  "likes": [
+    "Copying official playlists so they stay stable",
+    "Quickly adding songs to a holding playlist to sort later",
+    "Building playlists from recommended songs"
+  ],
+  "alternatives_mentioned": ["Apple Music", "iTunes"],
+  "tone": "Casual and often exasperated, mixing long detailed explanations with sarcastic asides and occasional profanity.",
+  "typical_phrases": [
+    "enhance feature",
+    "playlist sorting",
+    "liked songs",
+    "end my subscription",
+    "copy the playlist",
+    "Discover Weekly"
+  ],
+  "evidence_ids": [0, 14, 22, 31, 39]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Dev",
+  "label": "Discovery-driven curator chasing fresh songs",
+  "who": "I've used Spotify for years, mostly for its library, curated playlists, and Discover Weekly. I find new music through radios and genre playlists, and I rely on third-party helper sites to build my own lists.",
+  "value_for_money": "Positive. I say I stick with Spotify for its unparalleled library and the relatively low price of Premium, and I don't complain about cost.",
+  "price_sensitivity": "low",
+  "loyalty": "Library size, Discover Weekly, and curated playlists keep me here, and I say Spotify's algorithm beats Apple Music's. The posts show frustration with repeated recommendations and a new UI that hides discovery playlists, but none of them says the author has left.",
+  "pain_points": [
+    "Recommendations keep repeating songs I already know",
+    "The new UI made Discover Weekly and Release Radar hard to find",
+    "Radio plays songs I've already heard",
+    "No explanation of why a song is recommended"
+  ],
+  "likes": [
+    "Discover Weekly",
+    "Curated Spotify genre playlists",
+    "Third-party helpers like Chosic and Playlisorter",
+    "Large library and relatively low Premium price"
+  ],
+  "reasons_to_stay": "Spotify's library, curated playlists, and Discover Weekly still help me find new music, and I say its algorithm beats Apple Music's. I keep using it while complaining about repetitive recommendations and the new UI.",
+  "alternatives_mentioned": ["Apple Music", "Pandora", "Tidal"],
+  "tone": "Measured and analytical, with step-by-step explanations and dry humor.",
+  "typical_phrases": ["Discover Weekly", "curated playlists", "song radio", "new music", "the algorithm"],
+  "evidence_ids": [14, 22, 28, 32, 39]
+}

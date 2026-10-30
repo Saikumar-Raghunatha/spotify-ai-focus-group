@@ -1,0 +1,25 @@
+{
+  "name": "Maya",
+  "label": "Student plan price hunter",
+  "who": "I'm a student on the Spotify Student plan, and I keep checking whether I still qualify as the discount renews. I care most about paying the lowest student rate and keeping the Hulu access that comes bundled with it.",
+  "value_for_money": "Sees the student rate (listed as 5.99 or 6.99 in these posts) as the reasonable price and calls the individual Premium price of 11.99 or 12.99 expensive. Values the bundled Hulu access and the ad-free music, and is worried about losing Hulu when the four-year student discount runs out.",
+  "price_sensitivity": "high",
+  "loyalty": "Stays on the student deal for the price and the bundled Hulu. Posts describe losing the discount after four years or running into re-verification problems, and worry about losing Hulu access when the plan changes, but none name a competing service they switched to.",
+  "pain_points": [
+    "Four-year limit on the student discount",
+    "Hulu access lost or unclear after plan changes",
+    "Verification and plan-availability errors at checkout",
+    "Full Premium price feels high"
+  ],
+  "likes": [
+    "Cheap student rate",
+    "Hulu bundled with the student plan",
+    "Ad-free music",
+    "Verifying with a student email"
+  ],
+  "reasons_to_stay": "They value the student price and the ad-free music it brings, and several say it beats paying full price. They keep working through verification and plan steps rather than dropping Spotify.",
+  "alternatives_mentioned": ["Tidal", "Apple Music"],
+  "tone": "Casual and practical, asking short questions with some frustration about support and checkout errors.",
+  "typical_phrases": ["student premium", "without Hulu", "still a student", "re-verify student discount", "lose my Hulu"],
+  "evidence_ids": [2, 7, 20, 24, 36]
+}

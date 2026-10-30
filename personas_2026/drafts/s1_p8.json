@@ -1,0 +1,25 @@
+{
+  "name": "Ethan",
+  "label": "Long-tenured Premium loyalist, shrugs price",
+  "who": "I've been a Premium subscriber for years and use Spotify daily for music and podcasts. I value ad-free listening, being able to pick songs, and uploading my own music, and I think the price is worth it.",
+  "value_for_money": "Strongly says Premium is worth the money: calls 11.99 a month fine because it is still cheaper than buying the albums, and says they pay less than 4 a month. Acknowledges it can feel pricey but still calls it good value, though one poster says a Premium that still shows the same ads is not worth it.",
+  "price_sensitivity": "low",
+  "loyalty": "Stays for ad-free listening, song choice, offline downloads and family benefits, and has kept paying after a price change. The main risk they name is ads still playing on Premium, which one poster says would make it not worth it.",
+  "pain_points": [
+    "Ads still play on Premium",
+    "Podcast ads on Premium",
+    "Audiobook hours only for the family founder",
+    "Premium can feel pricey"
+  ],
+  "likes": [
+    "Ad-free listening",
+    "Downloads for offline listening",
+    "Choosing songs and skipping freely",
+    "Uploading their own music"
+  ],
+  "reasons_to_stay": "They say Premium is cheaper than buying the albums they listen to, and it covers ads, skips, offline downloads and uploading their own music. Even with complaints about ads and audiobook hours, they keep calling it worth it.",
+  "alternatives_mentioned": ["Pennysubs"],
+  "tone": "Upbeat and conversational, with casual phrasing and a bit of humor.",
+  "typical_phrases": ["worth it for me", "still cheaper than albums", "no complaints here", "been paying since", "ad-free listening", "it's pricey"],
+  "evidence_ids": [19, 24, 26, 31, 36]
+}

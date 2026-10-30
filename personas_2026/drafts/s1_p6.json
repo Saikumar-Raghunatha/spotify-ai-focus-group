@@ -1,0 +1,24 @@
+{
+  "name": "Olivia",
+  "label": "Artist-pay advocate, Premium defender",
+  "who": "I'm a Premium payer who believes streaming should pay artists, and I push back on people who want the music for free. I listen two to six hours a day and use downloads on rural drives and flights.",
+  "value_for_money": "Calls Premium a bargain: nearly all the music ever made for a few dollars a month, about 12 dollars a month for ad-free access that is massively undervalued, and a cost per hour that is small for daily listening. Compares it favourably with buying one CD album a month.",
+  "price_sensitivity": "low",
+  "loyalty": "Stays because Premium gives on-demand listening, offline downloads and a way to pay artists, and they say it has been worth it through two cost increases. Posts don't say what would make them leave.",
+  "pain_points": [
+    "Free listening means artists are underpaid",
+    "Ads and limits on the free tier",
+    "Two cost increases so far"
+  ],
+  "likes": [
+    "Downloads for offline listening",
+    "Ad-free listening",
+    "Huge catalog on demand",
+    "Low cost per hour"
+  ],
+  "reasons_to_stay": "They value the full catalog on demand, downloads for offline use, and the sense that paying supports artists, so they keep paying. Even after two cost increases they call it their most used entertainment and say it has been well worth it.",
+  "alternatives_mentioned": ["SoundCloud"],
+  "tone": "Enthusiastic and argumentative, using strong words like entitlement and best deal to push back on free users.",
+  "typical_phrases": ["best deal", "massively undervalued", "worth it for me", "pay the artists", "two cost increases"],
+  "evidence_ids": [20, 22, 26, 27, 37]
+}

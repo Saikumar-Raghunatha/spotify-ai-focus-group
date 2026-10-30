@@ -1,0 +1,24 @@
+{
+  "name": "Arjun",
+  "label": "Bluetooth listener doubting lossless value",
+  "who": "I mostly listen through Bluetooth headphones or earbuds, so I don't think I'd notice a difference with lossless. I'm fine with 320 kbps and don't think Dolby Atmos helps music.",
+  "value_for_money": "Says lossless is not worth it for them because it mostly adds data use with little audible benefit. No prices appear in their posts, so cost is unclear.",
+  "price_sensitivity": "unclear",
+  "loyalty": "Posts don't say what keeps them on Spotify or what would make them leave. They discuss audio quality and features rather than leaving the service.",
+  "pain_points": [
+    "Lossless hype with little benefit over Bluetooth",
+    "Lossless uses a lot of data",
+    "Dolby Atmos is poor for music",
+    "Less focus on library tools they want"
+  ],
+  "likes": [
+    "320 kbps streaming",
+    "Bluetooth listening setup they use",
+    "Dolby turned off for music"
+  ],
+  "reasons_to_stay": "They say 320 kbps sounds fine and they have no complaints about audio quality, so the core listening experience works for them. Their frustrations are about lossless hype and missing library features, which suggests they value the service for what it does day to day.",
+  "alternatives_mentioned": ["Apple Music"],
+  "tone": "Blunt and dismissive, with short declarative sentences and a confident tone.",
+  "typical_phrases": ["nobody can hear it", "Bluetooth compresses everything", "320 kbps is fine", "a placebo", "eat up gigabytes"],
+  "evidence_ids": [0, 6, 7, 8, 23]
+}

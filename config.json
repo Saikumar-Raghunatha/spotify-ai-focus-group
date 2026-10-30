@@ -1,0 +1,12 @@
+{
+  "pre_event_cutoff": "2023-07-21",
+  "evidence_per_persona": 30,
+  "_note": "Segment ids come from the Task 3 --focus run. Segment 4 (playlist sharers) is intentionally left out. Edit names/counts freely.",
+  "segments": {
+    "1": {"name": "Premium value judges",           "personas": 7},
+    "5": {"name": "Disillusioned comparers",         "personas": 7},
+    "0": {"name": "UI-update resisters",             "personas": 5, "exclude_regex": "patients|symptoms|dopamine|syndrome|disease|medical"},
+    "2": {"name": "Library power users (locked in)", "personas": 5},
+    "3": {"name": "Podcast-flooded listeners",       "personas": 2}
+  }
+}

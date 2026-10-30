@@ -1,0 +1,350 @@
+<title>Spotify Price-Hike Focus Group</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Source+Sans+3:wght@400;600;700&display=swap">
+<style>
+/* Layout: one centered column; a sticky tab bar; each tab is a stack of panels. Real = ink, AI personas = emerald, plain prompt = coral. */
+:root {
+  --bg: #F4F8F6; --surface: #FFFFFF; --surface-2: #E8F1EC; --line: #D3E1D9;
+  --fg: #16302A; --fg-2: #4E625B; --muted: #6E8079;
+  --accent: #0E9F5A; --accent-soft: #D7F0E2; --warm: #E8553F; --amber: #C98500; --amber-soft: #FBEFD3;
+  --real: #16302A; --ai: #0E9F5A; --plain: #E8553F;
+  --display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", sans-serif;
+  --body: "Source Sans 3", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --r: 14px;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0D1714; --surface: #14211D; --surface-2: #1B2C27; --line: #2A3E37;
+  --fg: #E6EFEA; --fg-2: #B5C6BF; --muted: #8DA199;
+  --accent: #2BC27A; --accent-soft: #163F2D; --warm: #F07560; --amber: #E9B44C; --amber-soft: #3A2F16;
+  --real: #DCE8E2; --ai: #2BC27A; --plain: #F07560; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #0D1714; --surface: #14211D; --surface-2: #1B2C27; --line: #2A3E37;
+  --fg: #E6EFEA; --fg-2: #B5C6BF; --muted: #8DA199;
+  --accent: #2BC27A; --accent-soft: #163F2D; --warm: #F07560; --amber: #E9B44C; --amber-soft: #3A2F16;
+  --real: #DCE8E2; --ai: #2BC27A; --plain: #F07560; color-scheme: dark }
+
+* { box-sizing: border-box }
+body { background: var(--bg); color: var(--fg); font: 16px/1.55 var(--body); }
+.wrap { max-width: 1100px; margin: 0 auto; padding-inline: 20px; padding-block: 28px 64px; }
+h1, h2, h3 { font-family: var(--display); line-height: 1.15; text-wrap: balance; margin: 0 }
+h1 { font-size: clamp(28px, 4.5vw, 44px); font-weight: 700 }
+h2 { font-size: 22px; font-weight: 700 }
+h3 { font-size: 17px; font-weight: 700 }
+p { margin: 0 }
+.eyebrow { font-size: 12px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--accent) }
+.lede { color: var(--fg-2); max-width: 64ch; margin-top: 10px; font-size: 17px }
+.num { font-variant-numeric: tabular-nums }
+
+header.top { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 18px; margin-bottom: 18px }
+.toggle { display: inline-flex; background: var(--surface-2); border-radius: 999px; padding: 4px; gap: 4px }
+.toggle button { border: 0; background: transparent; color: var(--fg-2); font: 600 15px var(--body); padding: 8px 16px; border-radius: 999px; cursor: pointer }
+.toggle button[aria-pressed="true"] { background: var(--surface); color: var(--fg); box-shadow: 0 1px 3px rgba(0,0,0,.12) }
+.toggle button:focus-visible, .tabs button:focus-visible, .chip:focus-visible, .pcard:focus-visible, .btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px }
+
+.tabs { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); display: flex; gap: 6px; overflow-x: auto;
+        border-bottom: 1px solid var(--line); margin-bottom: 22px; padding-top: 6px }
+.tabs button { border: 0; background: none; color: var(--fg-2); font: 600 15px var(--body); padding: 12px 14px; cursor: pointer;
+               border-bottom: 3px solid transparent; white-space: nowrap }
+.tabs button[aria-selected="true"] { color: var(--fg); border-bottom-color: var(--accent) }
+
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 22px; min-width: 0 }
+.stack { display: grid; gap: 18px }
+.grid3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px }
+.grid2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px }
+@media (max-width: 820px) { .grid3, .grid2 { grid-template-columns: 1fr } }
+
+.announce { background: var(--surface-2); border: 0; display: grid; grid-template-columns: auto 1fr; gap: 18px; align-items: start }
+.announce .date { font: 700 13px var(--body); color: var(--accent); background: var(--accent-soft); border-radius: 8px; padding: 6px 10px; white-space: nowrap }
+.announce p { color: var(--fg); max-width: 75ch }
+@media (max-width: 560px) { .announce { grid-template-columns: 1fr } }
+
+.kpi h3 { font-size: 15px; color: var(--fg-2); font-family: var(--body); font-weight: 700 }
+.kpi .note { color: var(--muted); font-size: 13px; margin-top: 10px }
+.kbar { display: grid; grid-template-columns: 96px 1fr 44px; align-items: center; gap: 8px; margin-top: 10px; font-size: 14px }
+.kbar .track { height: 10px; border-radius: 6px; background: var(--surface-2); overflow: hidden }
+.kbar .fill { height: 100%; border-radius: 6px }
+.kbar b { text-align: right; font-variant-numeric: tabular-nums }
+
+.legend { display: flex; flex-wrap: wrap; gap: 14px; font-size: 14px; color: var(--fg-2) }
+.legend label { display: inline-flex; align-items: center; gap: 6px; cursor: pointer }
+.sw { width: 12px; height: 12px; border-radius: 3px; display: inline-block }
+.chart { display: grid; gap: 12px; margin-top: 14px }
+.crow { display: grid; grid-template-columns: 170px 1fr; gap: 12px; align-items: center }
+.crow .cat { font-weight: 600; font-size: 15px }
+.bars { display: grid; gap: 3px }
+.bar { display: grid; grid-template-columns: 1fr 44px; gap: 8px; align-items: center; font-size: 13px; color: var(--fg-2) }
+.bar .t { height: 12px; border-radius: 0 6px 6px 0; min-width: 2px; position: relative }
+.bar b { font-variant-numeric: tabular-nums; font-weight: 600 }
+.bar:hover .t { filter: brightness(1.12) }
+@media (max-width: 560px) { .crow { grid-template-columns: 1fr; gap: 4px } }
+.caption { color: var(--muted); font-size: 14px; margin-top: 12px }
+
+.chips { display: flex; flex-wrap: wrap; gap: 8px }
+.chip { border: 1px solid var(--line); background: var(--surface); color: var(--fg-2); border-radius: 999px; padding: 6px 12px; font: 600 14px var(--body); cursor: pointer }
+.chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff }
+.pgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; margin-top: 14px }
+.pcard { text-align: left; border: 1px solid var(--line); background: var(--surface); border-radius: 12px; padding: 14px; cursor: pointer; color: var(--fg); font: inherit; display: grid; gap: 6px }
+.pcard:hover { border-color: var(--accent) }
+.pcard[aria-current="true"] { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent-soft) }
+.pcard .nm { font-family: var(--display); font-weight: 700; font-size: 17px }
+.pcard .lb { color: var(--fg-2); font-size: 14px }
+.pill { display: inline-block; font-size: 12px; font-weight: 700; border-radius: 999px; padding: 2px 9px; background: var(--surface-2); color: var(--fg-2) }
+.pill.high { background: #FCE3DE; color: #A63A28 } .pill.medium { background: var(--amber-soft); color: var(--amber) } .pill.low { background: var(--accent-soft); color: var(--accent) }
+:root[data-theme="dark"] .pill.high { background: #4A221B; color: #F7A08F }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .pill.high { background: #4A221B; color: #F7A08F } }
+
+.detail { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: 22px }
+@media (max-width: 820px) { .detail { grid-template-columns: 1fr } }
+.detail dl { margin: 12px 0 0; display: grid; gap: 10px }
+.detail dt { font-weight: 700; font-size: 14px; color: var(--accent) }
+.detail dd { margin: 0; color: var(--fg-2) }
+.detail ul { margin: 4px 0 0; padding-left: 18px; color: var(--fg-2) }
+.bubble { background: var(--surface-2); border-radius: 14px; padding: 18px; position: relative }
+.bubble blockquote { margin: 8px 0 12px; font-size: 18px; line-height: 1.5 }
+.tagrow { display: flex; flex-wrap: wrap; gap: 6px }
+.tag { font-size: 12px; font-weight: 700; padding: 3px 9px; border-radius: 6px; background: var(--surface); color: var(--fg-2); border: 1px solid var(--line) }
+.tag.act { background: var(--accent); border-color: var(--accent); color: #fff }
+.tag.act.leave { background: var(--warm); border-color: var(--warm) }
+.btn { border: 1px solid var(--line); background: var(--surface); color: var(--fg); border-radius: 10px; padding: 8px 14px; font: 600 14px var(--body); cursor: pointer }
+.btn:hover { border-color: var(--accent) }
+.reps { display: flex; gap: 6px; align-items: center; margin-top: 12px; color: var(--muted); font-size: 13px }
+.reps span { width: 9px; height: 9px; border-radius: 50%; background: var(--line) }
+.reps span.on { background: var(--accent) }
+
+.quotes { display: grid; gap: 10px; margin-top: 10px }
+.quotes figure { margin: 0; border-left: 0; background: var(--surface-2); border-radius: 10px; padding: 12px 14px; color: var(--fg-2) }
+.quotes figcaption { font-size: 12px; font-weight: 700; color: var(--muted); margin-top: 6px }
+
+.readme h3 { margin-top: 6px }
+.readme p, .readme li { color: var(--fg-2); max-width: 70ch }
+.readme ul { padding-left: 20px; margin: 8px 0 0; display: grid; gap: 6px }
+.gloss { display: grid; grid-template-columns: 190px 1fr; gap: 8px 16px; margin-top: 10px }
+.gloss dt { font-weight: 700 } .gloss dd { margin: 0; color: var(--fg-2) }
+@media (max-width: 560px) { .gloss { grid-template-columns: 1fr } }
+footer { color: var(--muted); font-size: 13px; margin-top: 28px }
+@media (prefers-reduced-motion: no-preference) { .bar .t, .kbar .fill { transition: width .35s ease } }
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div>
+      <p class="eyebrow">MSBA project demo · synthetic consumer research</p>
+      <h1>What would r/spotify say about a price hike?</h1>
+      <p class="lede">We built 28 AI personas from what Spotify users posted <em>before</em> each price increase, showed them the announcement, and compared their answers with what the real community said afterwards.</p>
+    </div>
+    <div class="toggle" role="group" aria-label="Choose a price increase">
+      <button id="ev2023" aria-pressed="true">July 2023 · $9.99 → $10.99</button>
+      <button id="ev2026" aria-pressed="false">Jan 2026 · $11.99 → $12.99</button>
+    </div>
+  </header>
+
+  <nav class="tabs" role="tablist" aria-label="Sections">
+    <button role="tab" id="tab-overview" aria-selected="true" aria-controls="p-overview">Overview</button>
+    <button role="tab" id="tab-personas" aria-selected="false" aria-controls="p-personas">Meet the personas</button>
+    <button role="tab" id="tab-compare" aria-selected="false" aria-controls="p-compare">Real vs AI</button>
+    <button role="tab" id="tab-readme" aria-selected="false" aria-controls="p-readme">Read me</button>
+  </nav>
+
+  <!-- OVERVIEW -->
+  <section id="p-overview" role="tabpanel" aria-labelledby="tab-overview" class="stack">
+    <div class="panel announce"><span class="date" id="annDate"></span><p id="annText"></p></div>
+    <div class="grid3">
+      <div class="panel kpi" id="kpiLeave"></div>
+      <div class="panel kpi" id="kpiAccept"></div>
+      <div class="panel kpi" id="kpiGap"></div>
+    </div>
+    <div class="panel">
+      <div style="display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;align-items:baseline">
+        <h2>What people say they'll do</h2>
+        <div class="legend" id="legendA"></div>
+      </div>
+      <div class="chart" id="chartA"></div>
+      <p class="caption">Share of answers per action. Real = comments that state a stance (questions and news links are left out). AI personas = 28 personas × 5 runs. Plain prompt = an AI asked to "simulate 28 r/spotify users" with no data.</p>
+    </div>
+  </section>
+
+  <!-- PERSONAS -->
+  <section id="p-personas" role="tabpanel" aria-labelledby="tab-personas" class="stack" hidden>
+    <div class="panel">
+      <h2>Pick a persona, hear their reaction</h2>
+      <p class="lede" style="font-size:16px">Every persona is written from real posts by one slice of the community and can only search its own post history. Filter by segment, then click a card.</p>
+      <div class="chips" id="segChips" style="margin-top:14px"></div>
+      <div class="pgrid" id="pgrid"></div>
+    </div>
+    <div class="panel detail" id="pdetail"></div>
+  </section>
+
+  <!-- COMPARE -->
+  <section id="p-compare" role="tabpanel" aria-labelledby="tab-compare" class="stack" hidden>
+    <div class="panel">
+      <div style="display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;align-items:baseline">
+        <h2>What they talk about</h2>
+        <div class="legend" id="legendT"></div>
+      </div>
+      <div class="chart" id="chartT"></div>
+      <p class="caption">Share of answers that raise each theme (an answer can raise up to three).</p>
+    </div>
+    <div class="grid2">
+      <div class="panel">
+        <h2>How they feel</h2>
+        <div class="chart" id="chartS"></div>
+      </div>
+      <div class="panel">
+        <h2>What real people wrote</h2>
+        <div class="chips" id="quoteChips" style="margin-top:12px"></div>
+        <div class="quotes" id="quotes"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- README -->
+  <section id="p-readme" role="tabpanel" aria-labelledby="tab-readme" class="stack readme" hidden>
+    <div class="panel stack">
+      <h2>What this page shows</h2>
+      <ul>
+        <li><b>Price switch (top right)</b> flips every tab between the July 2023 hike (where we built and tuned the method) and the January 2026 hike (a holdout we ran once, with nothing changed).</li>
+        <li><b>Overview</b> compares three groups: the <b>real community</b> (what people actually posted in the two weeks after the announcement), our <b>AI personas</b>, and a <b>plain prompt</b> baseline.</li>
+        <li><b>Meet the personas</b> lets you read any persona's profile and the five reactions it gave across five independent runs.</li>
+        <li><b>Real vs AI</b> compares themes and sentiment, and shows short real comments for each kind of reaction.</li>
+      </ul>
+    </div>
+    <div class="panel stack">
+      <h2>How it was built</h2>
+      <ul>
+        <li><b>Data:</b> Reddit r/spotify and r/truespotify, pulled from the Arctic Shift archive. Usernames were replaced by hashes.</li>
+        <li><b>No peeking:</b> personas only use posts written before the news leaked (WSJ, 21 Jul 2023; Financial Times, ~25 Nov 2025).</li>
+        <li><b>Segments:</b> posts were embedded with a sentence model and grouped into six segments with k-means; five are simulated.</li>
+        <li><b>Personas:</b> Claude Haiku wrote each profile from ~40 real posts; each persona keeps its own searchable post history.</li>
+        <li><b>Scoring:</b> real comments were labeled with the same actions, sentiments and themes as the AI answers.</li>
+      </ul>
+    </div>
+    <div class="panel">
+      <h2>Glossary</h2>
+      <dl class="gloss">
+        <dt>Say they'll leave</dt><dd>Share of answers that say they will cancel, switch to another service, or move to a cheaper plan.</dd>
+        <dt>Defend the price</dt><dd>Share that accept the increase or argue it is fair.</dd>
+        <dt>Action gap</dt><dd>How different two action mixes are, from 0 (identical) to 1 (nothing in common). Technically: total variation distance.</dd>
+        <dt>Noise floor</dt><dd>The gap between two random halves of the real data (about 0.06–0.07). No simulation can be expected to do better.</dd>
+        <dt>Plain prompt</dt><dd>The AI is asked to imagine 28 Reddit users, with no real data. This is what most people would try first.</dd>
+        <dt>Tuning round</dt><dd>One change made after the 2023 test: a satisfied-subscriber persona in two segments, and reasons-to-stay weighted like complaints. Then everything was frozen for 2026.</dd>
+      </dl>
+    </div>
+    <div class="panel">
+      <h2>Limits</h2>
+      <p>Reddit posters are not all customers. Personas still raise app complaints and plan prices more than real users do, and under-count people who defend the price. The same model family writes and labels the answers. Treat this as an early signal for comparing scenarios, not a churn forecast.</p>
+    </div>
+  </section>
+  <footer>Data: Reddit via Arctic Shift · AI: Claude Haiku · Figures computed by the project's scoring scripts.</footer>
+</div>
+
+<script id="data" type="application/json">__DATA__</script>
+<script>
+(() => {
+  const D = JSON.parse(document.getElementById("data").textContent);
+  const ACT = ["cancel", "switch", "downgrade", "complain", "accept", "ignore"];
+  const ACT_L = { cancel: "Cancel", switch: "Switch service", downgrade: "Downgrade plan", complain: "Complain, stay", accept: "Accept / defend", ignore: "Don't care" };
+  const SEN = ["very_negative", "negative", "neutral", "positive"];
+  const SEN_L = { very_negative: "Very negative", negative: "Negative", neutral: "Neutral", positive: "Positive" };
+  const TH_L = { greed_corporate: "Corporate greed", artist_pay: "Artist pay", still_good_value: "Still good value", inflation_expected: "Inflation / expected",
+    competitor_comparison: "Compares competitors", plan_cost: "Family / Duo / Student cost", lossless_missing: "No lossless audio",
+    podcast_audiobook_spending: "Podcast & audiobook spend", app_quality_ui: "App / UI complaints", ads_free_tier: "Ads & free tier",
+    affordability: "Can't afford it", piracy: "Piracy" };
+  const SERIES = [["real", "Real community", "var(--real)"], ["rag", "AI personas", "var(--ai)"], ["plain", "Plain prompt", "var(--plain)"]];
+  const pct = (x) => Math.round(x * 100) + "%";
+  const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const store = { get(k) { try { return localStorage.getItem(k) } catch (e) { return null } }, set(k, v) { try { localStorage.setItem(k, v) } catch (e) {} } };
+
+  let ev = store.get("ev") === "2026" ? "2026" : "2023";
+  let shown = { real: true, rag: true, plain: true };
+  let seg = "all", pid = null, rep = 0, qAct = "accept";
+
+  const src = (k) => k === "real" ? D.events[ev].real : D.events[ev].conditions[k];
+
+  function legend(el) {
+    el.innerHTML = SERIES.map(([k, l, c]) => `<label><input type="checkbox" data-k="${k}" ${shown[k] ? "checked" : ""}> <span class="sw" style="background:${c}"></span>${l}</label>`).join("");
+    el.querySelectorAll("input").forEach((i) => i.addEventListener("change", () => { shown[i.dataset.k] = i.checked; render() }));
+  }
+  function chart(el, field, cats, labels) {
+    const max = Math.max(0.01, ...cats.flatMap((c) => SERIES.filter(([k]) => shown[k]).map(([k]) => src(k)[field][c] || 0)));
+    el.innerHTML = cats.map((c) => `<div class="crow"><div class="cat">${labels[c]}</div><div class="bars">` +
+      SERIES.filter(([k]) => shown[k]).map(([k, l, col]) => { const v = src(k)[field][c] || 0;
+        return `<div class="bar" title="${l}: ${pct(v)}"><div class="t" style="width:${(v / max) * 100}%;background:${col}"></div><b>${pct(v)}</b></div>` }).join("") +
+      `</div></div>`).join("");
+  }
+  function kbars(vals) {
+    const max = Math.max(...vals.map((v) => v[1]), 0.01);
+    return vals.map(([l, v, col, txt]) => `<div class="kbar"><span>${l}</span><div class="track"><div class="fill" style="width:${(v / max) * 100}%;background:${col}"></div></div><b>${txt ?? pct(v)}</b></div>`).join("");
+  }
+  function overview() {
+    const E = D.events[ev], r = E.real, a = E.conditions.rag, p = E.conditions.plain;
+    document.getElementById("annDate").textContent = ev === "2023" ? "24 Jul 2023" : "15 Jan 2026";
+    document.getElementById("annText").textContent = E.announcement.replace(/^Spotify announcement, [^:]+: /, "");
+    document.getElementById("kpiLeave").innerHTML = `<h3>Say they'll leave</h3>` +
+      kbars([["Real", r.leave, "var(--real)"], ["AI personas", a.leave, "var(--ai)"], ["Plain prompt", p.leave, "var(--plain)"]]) +
+      `<p class="note">Cancel, switch or downgrade.</p>`;
+    document.getElementById("kpiAccept").innerHTML = `<h3>Defend the price</h3>` +
+      kbars([["Real", r.action.accept, "var(--real)"], ["AI personas", a.action.accept, "var(--ai)"], ["Plain prompt", p.action.accept, "var(--plain)"]]) +
+      `<p class="note">Personas still find fewer defenders than reality.</p>`;
+    document.getElementById("kpiGap").innerHTML = `<h3>Action gap vs real (lower is closer)</h3>` +
+      kbars([["Noise floor", ev === "2023" ? 0.06 : 0.07, "var(--muted)", ev === "2023" ? "0.06" : "0.07"],
+             ["AI personas", a.action_tvd, "var(--ai)", a.action_tvd.toFixed(2)], ["Plain prompt", p.action_tvd, "var(--plain)", p.action_tvd.toFixed(2)]]) +
+      `<p class="note">0 = identical mix of actions.</p>`;
+    legend(document.getElementById("legendA"));
+    chart(document.getElementById("chartA"), "action", ACT, ACT_L);
+  }
+  function personas() {
+    const P = D.events[ev].personas;
+    const segs = ["all", ...new Set(P.map((p) => p.segment))];
+    if (!segs.includes(seg)) seg = "all";
+    const chipBox = document.getElementById("segChips");
+    chipBox.innerHTML = segs.map((s) => `<button class="chip" aria-pressed="${s === seg}" data-s="${esc(s)}">${s === "all" ? "All segments" : esc(s)}</button>`).join("");
+    chipBox.querySelectorAll(".chip").forEach((b) => b.addEventListener("click", () => { seg = b.dataset.s; render() }));
+    const list = P.filter((p) => seg === "all" || p.segment === seg);
+    if (!pid || !P.some((p) => p.id === pid)) pid = (P.find((p) => p.id === "s1_p1") || P[0]).id;
+    const grid = document.getElementById("pgrid");
+    grid.innerHTML = list.map((p) => `<button class="pcard" data-id="${p.id}" aria-current="${p.id === pid}"><span class="nm">${esc(p.name)}</span>` +
+      `<span class="lb">${esc(p.label)}</span><span><span class="pill">${esc(p.segment)}</span></span></button>`).join("");
+    grid.querySelectorAll(".pcard").forEach((b) => b.addEventListener("click", () => { pid = b.dataset.id; rep = 0; render();
+      document.getElementById("pdetail").scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "nearest" }) }));
+    const p = P.find((x) => x.id === pid), R = p.reactions[rep % p.reactions.length];
+    const sens = (p.price_sensitivity || "unclear").toLowerCase();
+    const leave = ["cancel", "switch", "downgrade"].includes(R.action);
+    document.getElementById("pdetail").innerHTML = `<div><p class="eyebrow">${esc(p.segment)}</p><h2 style="margin-top:6px">${esc(p.name)}</h2>` +
+      `<p style="color:var(--fg-2);margin-top:4px">${esc(p.label)} · <span class="pill ${sens}">price sensitivity: ${esc(sens)}</span></p>` +
+      `<dl><dt>Who I am</dt><dd>${esc(p.who)}</dd><dt>Why I stay</dt><dd>${esc(p.reasons_to_stay)}</dd>` +
+      `<dt>Pain points</dt><dd><ul>${(p.pain_points || []).map((x) => `<li>${esc(x)}</li>`).join("")}</ul></dd></dl>` +
+      `<p class="caption">Built from ${p.pool} of this persona's own posts, all written before the announcement.</p></div>` +
+      `<div><div class="bubble"><p class="eyebrow">Reaction to the ${ev} announcement · run ${R.rep} of 5</p>` +
+      `<blockquote>“${esc(R.comment)}”</blockquote><div class="tagrow"><span class="tag act ${leave ? "leave" : ""}">${ACT_L[R.action] || esc(R.action)}${R.switch_to ? " → " + esc(R.switch_to) : ""}</span>` +
+      `<span class="tag">${SEN_L[R.sentiment] || esc(R.sentiment)}</span>${R.themes.map((t) => `<span class="tag">${TH_L[t] || esc(t)}</span>`).join("")}</div></div>` +
+      `<div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:12px"><button class="btn" id="nextRep">Show another run</button>` +
+      `<div class="reps" aria-label="Run ${rep + 1} of ${p.reactions.length}">${p.reactions.map((_, i) => `<span class="${i === rep % p.reactions.length ? "on" : ""}"></span>`).join("")}</div></div>` +
+      `<p class="caption">Each run is independent, so the same persona can answer a little differently. That spread is part of the result.</p></div>`;
+    document.getElementById("nextRep").addEventListener("click", () => { rep = (rep + 1) % p.reactions.length; personas() });
+  }
+  function compare() {
+    legend(document.getElementById("legendT"));
+    const th = Object.keys(TH_L).sort((a, b) => (D.events[ev].real.themes[b] || 0) - (D.events[ev].real.themes[a] || 0));
+    chart(document.getElementById("chartT"), "themes", th, TH_L);
+    chart(document.getElementById("chartS"), "sentiment", SEN, SEN_L);
+    const Q = D.events[ev].quotes, qc = document.getElementById("quoteChips");
+    qc.innerHTML = ["accept", "complain", "switch", "cancel"].map((a) => `<button class="chip" aria-pressed="${a === qAct}" data-a="${a}">${ACT_L[a]}</button>`).join("");
+    qc.querySelectorAll(".chip").forEach((b) => b.addEventListener("click", () => { qAct = b.dataset.a; compare() }));
+    document.getElementById("quotes").innerHTML = (Q[qAct] || []).map((t) => `<figure>“${esc(t)}”<figcaption>Real comment, ${ev === "2023" ? "Jul–Aug 2023" : "Jan 2026"} · username removed</figcaption></figure>`).join("") || "<p>No short quotes for this action.</p>";
+  }
+  function render() { overview(); personas(); compare() }
+
+  function setEv(e) { ev = e; store.set("ev", e);
+    document.getElementById("ev2023").setAttribute("aria-pressed", e === "2023"); document.getElementById("ev2026").setAttribute("aria-pressed", e === "2026"); render() }
+  document.getElementById("ev2023").addEventListener("click", () => setEv("2023"));
+  document.getElementById("ev2026").addEventListener("click", () => setEv("2026"));
+
+  const tabs = ["overview", "personas", "compare", "readme"];
+  function showTab(t) { tabs.forEach((x) => { document.getElementById("tab-" + x).setAttribute("aria-selected", x === t); document.getElementById("p-" + x).hidden = x !== t });
+    store.set("tab", t) }
+  tabs.forEach((t) => document.getElementById("tab-" + t).addEventListener("click", () => showTab(t)));
+  const fromHash = location.hash.replace("#", "");
+  setEv(ev); showTab(tabs.includes(fromHash) ? fromHash : (tabs.includes(store.get("tab")) ? store.get("tab") : "overview"));
+})();
+</script>

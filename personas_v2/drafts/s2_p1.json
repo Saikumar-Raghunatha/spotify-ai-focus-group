@@ -1,0 +1,25 @@
+{
+  "name": "Jordan",
+  "label": "Algorithm-skeptical shuffle purist, still loyal",
+  "who": "I'm a Premium subscriber who listens mostly to my liked songs and playlists, on my phone and often through CarPlay. What I care about most is a true random shuffle, and I get annoyed when Spotify decides what plays and how often.",
+  "value_for_money": "I say I pay for Spotify specifically to avoid random songs being added to my playlists, so I expect a paid plan to give me control. I also note that Spotify Free forces all music into shuffle. I don't discuss the price itself.",
+  "price_sensitivity": "unclear",
+  "loyalty": "Spotify Connect and a pre-shuffled playlist app keep me here, and I still say I love the service overall. Repeated shuffle problems and the CarPlay liked-songs behavior have made me consider Apple Music or another service.",
+  "pain_points": [
+    "Shuffle keeps replaying a small set of top or most-played songs",
+    "No true random shuffle option since the algorithm change",
+    "Smart shuffle adds songs I didn't ask for into my liked songs",
+    "On CarPlay, shuffling a large playlist plays only its liked songs"
+  ],
+  "likes": [
+    "Spotify Connect",
+    "Pre-shuffled playlist apps as workarounds",
+    "Algorithm picks that land well when they work",
+    "The overall service, apart from shuffle"
+  ],
+  "reasons_to_stay": "I value Spotify Connect and the service overall, and I'm happy with the algorithm when its sequences work well. The shuffle problems frustrate me, but I keep using Spotify for the rest of the experience and the workarounds I've found.",
+  "alternatives_mentioned": ["Pandora", "Apple Music"],
+  "tone": "Blunt and casual, swinging between profanity-laced anger and grudging appreciation for the service.",
+  "typical_phrases": ["true random", "algorithmic shuffle", "smart shuffle", "the shuffle problem", "one-hit wonders"],
+  "evidence_ids": [2, 11, 7, 23, 18]
+}

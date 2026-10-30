@@ -1,0 +1,66 @@
+You write research personas for a marketing-analytics class project. You get real Reddit posts and comments written by members of one online community before a cutoff date. Describe only what the evidence supports. Return a single JSON object and nothing else.
+
+Community segment: Disillusioned comparers
+Persona focus: sub-cluster: music, youtube, better, youtube music, quality, feature, good, use
+Keyword signals in this persona's posts (share of rows): youtube music 10%, price talk 6%
+
+Below are 40 real posts/comments that make up ONE persona (all dated before 2025-11-24).
+Write the persona as one JSON object with exactly these keys:
+"name": a plausible first name
+"label": 3-6 word descriptive label
+"who": 2 sentences, first person, who I am as a Spotify user (plan type, how I listen, what I care about)
+"value_for_money": what they say or imply about price, value, free vs paid ("unclear" if the evidence does not say)
+"price_sensitivity": "low" | "medium" | "high" | "unclear"
+"loyalty": what keeps them on Spotify and what would make them leave
+"pain_points": up to 4 short strings
+"likes": up to 4 short strings
+"reasons_to_stay": 2-3 sentences on what they value and why they keep using Spotify, as concrete as the pain points ("unclear" only if the evidence says nothing)
+"alternatives_mentioned": services they name (may be empty)
+"tone": one sentence on how they write
+"typical_phrases": up to 6 short phrases (max 4 words) in their voice
+"evidence_ids": the [numbers] of the 5 posts that best support this profile
+
+Rules: use ONLY the evidence; do not invent facts; mention nothing after 2025-11-24; do NOT predict how they would react to
+any price change; no usernames. Give what they like and why they stay the same weight as their complaints: people who complain about one feature often still value the service overall.
+
+EVIDENCE:
+[0] (2024-11-26) Spotify is king of terrible decisions. Remember when you used to like a random song and that artist would pop into your library without following them? Might be moving to YouTube music real soon
+[1] (2024-12-06) Spotify is an app that plays music. It let's you save songs and artists you like and make playlists. I feel like you are putting too much into the wrapped shit lol
+[2] (2024-12-12) Idk about yt music but here’s what I enjoy about spotify: audiobooks, podcasts, & music all in one place, I pay for a family plan & get to share the joy with family, my own playlists the way I want them to be, easy to find new artists & genres, auto playing similar artists when a song is finished, they have a section where you can sample songs so you don’t need to skip thru to see if you like it, 
+[3] (2024-12-14) Im getting to the point of doing either this or just cancelling spotify and moving to another platform/downloading all my music, the constant enshittification of spotify is starting to get real tiring
+[4] (2024-12-18) This. I made the jump to AM and the amount of actual good recommendations and discovery I find there is miles over Spotify. Not trying to shill AM but definitely check it out, there’s also apps to transfer your spotify music to it. Think Spotify’s usage of AI for their daylists and playing the same stuff I’ve heard in their “made for you” playlists is horrible
+[5] (2024-12-21) Spotify is low-key dookie How does Spotify just get worse and worse with every update? The shuffle mechanic isn’t the only thing and it’s not just Spotify but also apps like YouTube. The recommendation system/AI on these apps are ass, especially Spotify. I could close the app and open it up again 10x before getting an album or artists recommended to me that I either haven’t heard or one I like. Si
+[6] (2025-01-04) I'm actually brand new to Spotify, and it's better than I thought. I mainly moved because of the family plan...with 6 people in the house it's a really good value. Theres a bunch of features I like. Really, the only things that irk me are shuffle and smart shuffle. I get constant repeats with the shuffle function...my Playlist has 24 hours of music. I shouldn't hear the same song 2 times in a week
+[7] (2025-01-05) Alright if we’re being real, the number one reason I stay with Spotify is because I like the UI the most. Like, I just like how the app functions and the ease of using it (making playlists/radios/ how things are organized). Other than that, I like the podcasts and the mixes and blends (as long as I don’t get myself stuck in the algorithm loop). Also, if you’re using a playlist you shouldn’t get a 
+[8] (2025-01-10) Spotify is very much an app that is used to promote certain titles. I know labels pay to be put on certain playlists and I suppose the also pay to be prioritized in the algorithm. That's why they don't really give a shit about library features and shuffle and the likes, because it's not earning them additional money. It's been a trend for years and it's been getting gradually worse. Last time I tr
+[9] (2025-01-10) Spotify has been on a downward trend with the quality of their features. As a user since 2013, it’s disappointing. DW has became nearly useless, and I don’t often check it anymore. Another example is the group listening features. When it was in beta, it seemed to work nearly flawlessly for my girlfriend and I, who were long distance at the time. Now, we can barely get it to hold itself together wh
+[10] (2025-01-14) As much as I love the ease of using Spotify playlists, the sound quality just isn't it for me anymore. It's gotten significantly worse in the last few months. I did find a service that lets you import playlists to other services. But I really like the ease of Spotify. I dunno. Getting harder to justify paying for it.
+[11] (2025-01-17) Spotify is cheaper and also has audiobooks and podcasts. I also really enjoy the UI
+[12] (2025-01-18) I like Spotify's recommendations better and it has better integration with other apps in my experience.
+[13] (2025-01-31) It definitely used to be Spotify but their push into personalisation has basically killed discovery. now when I go looking for new music, or use an artist or song radio, for example - it just gives me songs/artists I’ve already been listening to, a lot.
+[14] (2025-02-06) What is the alternative? I’ve never found anything as good as Spotify, as helping me discover music even in the current not so ideal situation
+[15] (2025-03-06) As someone who currently primarily uses Spotify, it feels like a constant tug of war with enshittification. I would recommend against entering the Spotify ecosystem frankly. I'd recommend switching to Youtube and Youtube Music, of all the major options.
+[16] (2025-04-10) Me too. Music quality is one of my main gripes with Spotify. Compared to other services, it sounds terrible. But, music discovery, UI and the fact that I’ve been using it since the beta in 2009 means I can’t really switch 🤣
+[17] (2025-04-18) All of the other musicplayers have just one gripe that I can't get over. VLC. when playing music from an sd card, the way it loads music creates this noticable whining/pitching of the music that drives me insane. Musicolet is alright. It's just so bland, idk why but the UI is just uncomfortable to me. It's still useful to use for tagging music tho. Samsung music is great. Clean UI and everything. 
+[18] (2025-04-21) Spotify single handedly is destroying music and slowly disintegrating the underground. Also they’re the reason music streaming is a thing. Although it’s convenient, it’s horrible for musicians and artists and have made it extremely difficult to discover underground artists. There’s a reason why they constantly promote podcasts, whatever garbage that’s in the top 100, and the same songs through shu
+[19] (2025-05-01) I stopped using Spotify as soon as there was a problem and found out that the support they offer - Doesn't exist. Also, they've really changed recently. Not only have they completely up-ended the music business, but they provide what they want, and not what their customers want. Yes, spotify used to be good... Like all money making corps. Enshittification has led to the price going up and the prov
+[20] (2025-05-14) For me, Spotify became a bit of an after thought a few years back. It kept recommending me the same songs or types of songs and I'd started to lose touch with music. Playlists became my go to, and this meant I'd not really keep track of what I listened to or go back to certain artists, as it would all mesh together under certain genres or AI vibes. I've since moved away from Spotify to find other 
+[21] (2025-06-09) I've been using Spotify since like 2008 or 2009. I have my first playlists, just can't imagine not using Spotify. It's always the last subscription I cancel if I'm super broke and the first one I renew as soon as I have the budget for it. I started using it because options were really limited to actually making playlists. You could use Windows Music Player (and I did for a while) but the access to
+[22] (2025-06-11) I've started using youtube music and its leaps and bounds better than spotify. Funny thing is that it feels like how spotify used to be before they slowly stared ruining it update after update
+[23] (2025-06-18) Spotify free is the worst. You can't even choose what you want to listen to
+[24] (2025-06-29) Apple is better than Spotify is every way but two critical ways: 1) community driven playlists 2) independent artists (think lofi)
+[25] (2025-08-05) I mean, I like that I can listen to music and podcasts, play it in the background, and make playlists… really I appreciate its most basic functions as a music app but I have nothing spotify-specific that means that much to me.
+[26] (2025-08-07) Spotify is terrible Spotify just shoves ads and ads into your face, you cant skip or go to a song because they want money. They dont care about your music, they just focus on getting richer and richer, you might tell me that ooh spotify wrapped, but that is just one of their little schemes to get you to use their platform more, atleast soundcloud doesnt shove ads in your face and yeah i get it peo
+[27] (2025-08-15) Upping the price but the quality of the app on my phone has drastically dropped. It takes SO long to boot Spotify now and I'm tired of being recommended the same 5 artists in a genre.
+[28] (2025-08-16) From AI: I’m done with Spotify. After years of being my go-to music app, it’s time to say goodbye. The constant ads, the annoying playlist reshuffles, and the never-ending price hikes for Premium have finally pushed me over the edge. I’ve tried to stick it out, but enough is enough. If you’ve had a similar experience, I’d love to hear your thoughts. Any recommendations for a better music streaming
+[29] (2025-08-28) I'm always amazed at how much of the heavy lifting people expect Spotify to do for them, and I genuinely don't know if it's just me being strange! Like, if I go onto a playlist or radio station based off my listening, there's going to be plenty I either already am aware of or (as you say) is a bit of a swing and a miss. Anything that I get recommended that works for me is a bonus, but I'd say I on
+[30] (2025-08-31) I've been considering moving away from Spotify, I'd probably just move over to YT music, tbh. I already have a YouTube premium membership anyways. So it's been building my music algorithm parallel with Spotify
+[31] (2025-09-01) Definitely not Spotify. Abundance of AI music pushed by algos, higher price and just worse service overall
+[32] (2025-09-19) It's such a stupid feature. I'm definitely looking to leave Spotify. I just want to listen to music, not all the stupid social horseshit Spotify is doing now. Fucking awful.
+[33] (2025-09-22) I used it since I wanted something for my phone and PC and since at the time Spotify was the best and convenient to use. But now since the price increase and my sister currently planning on ditching spotify (paying then 12.99€ alone) it really doesn´t makes sense anymore for me to use it since YouTube has now a new music player (I used to use Google Play Music) and I get access to YouTube Premium 
+[34] (2025-10-09) I recommend you to discover new music by your friends or someone else and not Spotify itself
+[35] (2025-10-12) Spotify has great social features though, the main thing keeping me on Spotify is the jam function allowing my friends to join the queue when we're in the car, or calling my long distance friends and listening to music together over the phone.
+[36] (2025-10-14) +1, Spotify app is really embarrassing. I wish I could browse my favourites by year, genre, bpm: nothing. On top on this lack of features: bugs
+[37] (2025-10-15) I just had a pretty successful post on unpopular opinion that has some pretty good discourse. I stated that Spotify is one of the modern exploitations that I can live with. Got to pick your battles. For the price and access to music it works for me.
+[38] (2025-10-21) Plus, Spotify's algorithm sucks now. It recommends you the same stuff you already listen to.
+[39] (2025-11-04) Building a library and playlists is surely the whole point of having any kind of music subscription service, this might just be where you and I differ greatly but it's insane to me that you'd use Spotify for years without doing anything to curate your own experience.

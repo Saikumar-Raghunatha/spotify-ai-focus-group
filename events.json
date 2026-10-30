@@ -1,0 +1,16 @@
+{
+  "2023": {
+    "pre_start": "2022-07-21",
+    "cutoff": "2023-07-21",
+    "announcement": "2023-07-24",
+    "post_end": "2023-08-08",
+    "note": "US hike $9.99 -> $10.99. WSJ leaked it on 2023-07-21, so 07-21..07-23 is excluded."
+  },
+  "2026": {
+    "pre_start": "2024-11-24",
+    "cutoff": "2025-11-24",
+    "announcement": "2026-01-15",
+    "post_end": "2026-01-30",
+    "note": "US hike $11.99 -> $12.99 officially announced 2026-01-15. The Financial Times reported the plan on ~2025-11-25 (Q1 2026 US hike), so persona data stops 2025-11-24 and 2025-11-24..2026-01-14 is excluded from both sides. The community was primed for this hike; say so in the report."
+  }
+}

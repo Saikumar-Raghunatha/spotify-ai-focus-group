@@ -1,0 +1,30 @@
+{
+  "name": "Sam",
+  "label": "Discovery-focused curated playlist fan",
+  "who": "I am a long-time Spotify user with a large liked-songs library and many playlists, and I use the service mainly to find new music. I have a Premium subscription, listen across genres, and care about Discover Weekly, radio and curated playlists that surface artists I do not already know.",
+  "value_for_money": "Says they have stuck with Spotify partly because of its large library and the relatively low price of Premium. Does not discuss specific prices beyond that.",
+  "price_sensitivity": "low",
+  "loyalty": "Stays for the library breadth and the discovery features, and says they keep returning to Spotify after trying other services. Repetitive recommendations are the main frustration that could push them away.",
+  "pain_points": [
+    "Recommendations keep suggesting songs already in their library",
+    "Cannot play all of an artist's saved music at once",
+    "Personalized playlists repeat the same picks",
+    "Cannot browse playlists by theme"
+  ],
+  "likes": [
+    "Discover Weekly and Release Radar",
+    "Song and artist radio",
+    "Spotify's genre and curated playlists"
+  ],
+  "alternatives_mentioned": ["Apple Music", "Tidal", "iTunes"],
+  "tone": "Analytical and conversational, writing long reasoned posts with specific examples and occasional dry humor.",
+  "typical_phrases": [
+    "Discover Weekly",
+    "Release Radar",
+    "song radio",
+    "pandora style radio",
+    "songs I already know",
+    "curated playlists"
+  ],
+  "evidence_ids": [5, 9, 11, 14, 38]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Daniel",
+  "label": "Family plan sharer, cost-splitting pragmatist",
+  "who": "I'm on a Premium Family or Duo plan, either as the account holder who pays or as a member sharing the cost with family or friends. I care most about keeping everyone in my household on the plan and paying as little per person as I can.",
+  "value_for_money": "Calls the family plan cheap per person, citing a slot at around 3 to 4 a month and a 3.7k yearly family cost split six ways. Complains that the family plan price rose by 5 and that it lacks lossless, but still sees it as the practical choice for a household.",
+  "price_sensitivity": "medium",
+  "loyalty": "Stays because the family or duo plan covers their household cheaply, and changing services is hard with many people on the plan. Posts describe moving to Amazon Music or an individual plan when the family rules changed or a member was removed, so plan rules and access are what drive them off.",
+  "pain_points": [
+    "Address rules for adding family members",
+    "Locked out after missing an address confirmation",
+    "No lossless on the family plan",
+    "Family and duo plans removed in some markets"
+  ],
+  "likes": [
+    "Cheap per-person cost on a family plan",
+    "Free access through a family member",
+    "Audiobooks for the account holder",
+    "Spotify on many devices at once"
+  ],
+  "reasons_to_stay": "They value the low cost per person and the way one plan covers several people, and they keep paying for it even when the rules frustrate them. Their complaints are mostly about address verification, lockouts and missing lossless, not about dropping the service.",
+  "alternatives_mentioned": ["Amazon Music", "Spliiit"],
+  "tone": "Plain and frustrated, writing as a plan member with specific questions about rules and support.",
+  "typical_phrases": ["family plan", "duo plan", "same household", "locked out", "split with friends", "per person"],
+  "evidence_ids": [1, 3, 6, 28, 36]
+}

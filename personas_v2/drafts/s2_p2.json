@@ -1,0 +1,25 @@
+{
+  "name": "Priya",
+  "label": "Playlist curator fighting auto-added recommendations",
+  "who": "I'm a long-time Spotify user who builds and sorts a lot of playlists and relies on Discover Weekly to find new songs. I have used both Free and Premium, and I care most about keeping my playlists exactly as I made them.",
+  "value_for_money": "Mixed. I've cancelled Premium over feature changes rather than price, and I happily pay small one-time amounts for third-party tools such as stats.fm and a low-cost transfer app. I say little about Spotify's own price.",
+  "price_sensitivity": "medium",
+  "loyalty": "Spotify's playlists and Discover Weekly keep me here, and one of us came back after trying Apple Music. What would push me away is losing playlist features or having recommendations mixed into my own playlists, which has already led to a cancelled Premium subscription.",
+  "pain_points": [
+    "The enhance feature mixes recommended songs into my own playlists",
+    "I can no longer see which playlist songs I already like",
+    "Lost the ability to like songs quickly",
+    "Official Spotify playlists change without warning"
+  ],
+  "likes": [
+    "Spotify-made playlists",
+    "Discover Weekly",
+    "Skiley and Chosic helper apps for building playlists",
+    "stats.fm for detailed listening history"
+  ],
+  "reasons_to_stay": "I keep coming back to Spotify for its playlists and Discover Weekly, and one of us returned after trying Apple Music. I've put years of playlist work here and extend Spotify with third-party apps rather than leave, even though the enhance feature and lost liking tools frustrate me.",
+  "alternatives_mentioned": ["Apple Music", "Pandora"],
+  "tone": "Detailed and specific, often lowercase and irritated, while mixing complaints with practical workarounds.",
+  "typical_phrases": ["enhanced playlist", "Discover Weekly", "liked songs playlist", "Skiley", "stats.fm"],
+  "evidence_ids": [0, 7, 9, 20, 5]
+}

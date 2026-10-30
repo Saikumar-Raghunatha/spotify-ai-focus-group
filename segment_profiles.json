@@ -1,0 +1,640 @@
+{
+  "embedding": "sentence-transformers all-MiniLM-L6-v2",
+  "k": 6,
+  "silhouette": {
+    "6": 0.0421,
+    "7": 0.034,
+    "8": 0.0342
+  },
+  "segments": [
+    {
+      "segment_id": 0,
+      "size": 3522,
+      "share_pct": 12.7,
+      "name": "",
+      "top_terms": [
+        "patients",
+        "update app",
+        "older version",
+        "symptoms",
+        "app update",
+        "update don",
+        "ui updates",
+        "playing view",
+        "download older",
+        "von",
+        "dopamine",
+        "testing released"
+      ],
+      "signal_rate_pct": {
+        "price/cost": 1.1,
+        "cancel/leave": 5.4,
+        "alternatives": 5.0,
+        "lossless/hifi": 3.1,
+        "ads/free tier": 0.9,
+        "artists/royalties": 6.9,
+        "discovery/algo": 15.0,
+        "podcasts/books": 2.7,
+        "bugs/app": 6.0,
+        "family/student": 1.0
+      },
+      "kind_mix": {
+        "comment": 0.89,
+        "post": 0.11
+      },
+      "subreddit_mix": {
+        "truespotify": 0.54,
+        "spotify": 0.46,
+        "popheads": 0.0
+      },
+      "unique_authors": 2634,
+      "median_words": 29,
+      "examples": [
+        {
+          "uid": "comment:j4ibqte",
+          "created": "2023-01-15",
+          "text": "It was the UI update that did it for me. The version i was using was about 3 years old. Loved it. The new version is just a pile of shit."
+        },
+        {
+          "uid": "comment:jkvjwq0",
+          "created": "2023-05-20",
+          "text": "Ah, that's annoying. Are you 100% sure your app is fully updated? I have a friend who still doesn't have it either so it may just be rolling out slowly"
+        },
+        {
+          "uid": "comment:jcn4z83",
+          "created": "2023-03-18",
+          "text": "I am irrationally irate at how dumb this update is. What I used to be able to see at a quick glance when I opened the app is gone. Now you have to click Music at the top, then still its this dumb card style interface that looks like fucking youtube or tiktok. SHITS FOR MUSIC YO. &amp;#x200B; End rant"
+        },
+        {
+          "uid": "comment:jajczh0",
+          "created": "2023-03-01",
+          "text": "I got it earlier today, while my app was up to date, the feature didn\u2019t come with the last update. I just got a notification out of the blue today letting me know it was available and there it was."
+        },
+        {
+          "uid": "comment:jg5ldep",
+          "created": "2023-04-13",
+          "text": "Luckily, I never had the new UI as I am still successfully avoiding updating the app. I'm just hoping they don't force me to update or somehow otherwise push this UI on me."
+        },
+        {
+          "uid": "comment:jbhazh5",
+          "created": "2023-03-09",
+          "text": "No updates available soooo no idea what you\u2019re talking about. The only changes I see is if you filter to ONLY music or podcasts. Otherwise the UI is exactly the same sooo\u2026"
+        },
+        {
+          "uid": "comment:ij6icpu",
+          "created": "2022-08-06",
+          "text": "That's a shame. I've def experienced serious issues with the app in the past. Usually I'd wait for app update that felt more stable/less buggy and never update again."
+        },
+        {
+          "uid": "comment:ikubtt6",
+          "created": "2022-08-18",
+          "text": "I checked and there was an update released not that long ago that fixed it. It wasn't listed in the updates available section yet. I had to go to the app listing and I updated from there."
+        },
+        {
+          "uid": "comment:jfsad4e",
+          "created": "2023-04-11",
+          "text": "I have not gotten this update, but I really like it. It makes it easier to see albums and artists in my library, and it makes it consistent with the phone app."
+        },
+        {
+          "uid": "comment:jbp8jvd",
+          "created": "2023-03-10",
+          "text": "it\u2019s the weirdest thing ever, and from what i\u2019ve heard they\u2019re not stopping there. they\u2019re gonna have an endless scroll thing like tiktok. i won\u2019t have it in my main music app, i changed it so it wouldn\u2019t auto update the app for me."
+        },
+        {
+          "uid": "comment:iq1k0hl",
+          "created": "2022-09-27",
+          "text": "They pushed an update exactly like this about a year ago too. It took a few weeks for it to update back to normal. It sucks."
+        },
+        {
+          "uid": "comment:jd9u5v9",
+          "created": "2023-03-22",
+          "text": "unfortunately since it\u2019s started rolling out i believe it is permanent, this seems to be their preferred method of updating the app now, features like lyrics and DJ were released in a similar way and have so far seemed permanent"
+        }
+      ]
+    },
+    {
+      "segment_id": 1,
+      "size": 3378,
+      "share_pct": 12.2,
+      "name": "",
+      "top_terms": [
+        "lossy",
+        "99 month",
+        "prepaid",
+        "months free",
+        "pay artists",
+        "usd",
+        "gift cards",
+        "premium features",
+        "vorbis",
+        "charged",
+        "codecs",
+        "discount"
+      ],
+      "signal_rate_pct": {
+        "price/cost": 20.6,
+        "cancel/leave": 8.4,
+        "alternatives": 10.2,
+        "lossless/hifi": 12.9,
+        "ads/free tier": 13.1,
+        "artists/royalties": 6.6,
+        "discovery/algo": 8.9,
+        "podcasts/books": 3.0,
+        "bugs/app": 2.0,
+        "family/student": 11.6
+      },
+      "kind_mix": {
+        "comment": 0.91,
+        "post": 0.09
+      },
+      "subreddit_mix": {
+        "spotify": 0.53,
+        "truespotify": 0.47,
+        "nba": 0.0
+      },
+      "unique_authors": 2337,
+      "median_words": 30,
+      "examples": [
+        {
+          "uid": "comment:j5k78x6",
+          "created": "2023-01-23",
+          "text": "This was so funny to read \ud83d\ude02 In the past, I've had premium for a month at a time but haven't had that for years now. But I'm always tempted to pay for it. I don't really need it when I go out, but the ability to play any song without getting any ads sounds so appealing."
+        },
+        {
+          "uid": "comment:itrlc33",
+          "created": "2022-10-25",
+          "text": "I will have been Premium for 10 years in November - *never* used the free option. Was hopping on a flight when I realised I had nothing to listen to on the plane. Downloaded Spotify for the first time, and I fell in love with it over the course of our holiday. Didn't want to deal with ads ever so I started paying for it when we got home. Never looked back. Went with the Family Plan option for various reasons a few years ago and it's working out great. Just wish they'd stop changing the UX of the"
+        },
+        {
+          "uid": "comment:iqup6v7",
+          "created": "2022-10-03",
+          "text": "Pay for Premium, its not expensive considering how much music you have access to and all the extra features that become available. If you don't want to pay that's fine. But it's the free service you're getting then and have to live with limited functions."
+        },
+        {
+          "uid": "comment:jibq9kb",
+          "created": "2023-04-30",
+          "text": "Oh for sure. I\u2019ve had the premium subscription for 6 years now. I don\u2019t think I can imagine going back to the free version now. The ability to choose your songs, skip songs, and have no ads is a must have for me."
+        },
+        {
+          "uid": "comment:jf2putt",
+          "created": "2023-04-05",
+          "text": "The complaint that users have to pay for Premium in order to listen to whatever they want, whenever they want\u2014that they should get access to all of the music for free."
+        },
+        {
+          "uid": "comment:jcrkgui",
+          "created": "2023-03-19",
+          "text": "I can afford premium and I have to say it\u2019s great because it\u2019s convenient and reliable. Only issues I have are with the removal of the like button and Spotify sometimes not scrobbling to last fm."
+        },
+        {
+          "uid": "post:14nogvo",
+          "created": "2023-07-01",
+          "text": "I\u2019m getting the non premium experience right now and it\u2019s fucking crazy I didn\u2019t even know I had premium until a second ago when I lost it. I get having to pay to download music and listen ad free, but you can\u2019t pick what song you want to play? You can\u2019t skip songs? They charge you for that? I could do that with fucking Youtube! Why would they charge you for that? How is this such a popular way to listen to music? Is there a reason or is it corporate bullshit?"
+        },
+        {
+          "uid": "comment:il9k5ev",
+          "created": "2022-08-22",
+          "text": "From my experience it\u2019s just that once you go premium and get used to picking your music and not having adds it\u2019s incredibly Annoying to go back. But if you just like listening to playlists for free it\u2019s not that big a deal"
+        },
+        {
+          "uid": "comment:is1omun",
+          "created": "2022-10-12",
+          "text": "They give new users a 14 day sneak peek of premium features. So it's not full premium or a trial but you can do things like choose what to listen to."
+        },
+        {
+          "uid": "comment:jidj54c",
+          "created": "2023-05-01",
+          "text": "I\u2019ve had premium for years, not having to worry about ads, being able to make my own playlists and being able to download playlists for the gym, flights, bad areas with no signal and when the service is down is awesome. I pay $15 a month for family to make sure my kids and husband can have their playlists whenever they need it. This is the only service I\u2019ve kept since 2011."
+        },
+        {
+          "uid": "comment:jidynwa",
+          "created": "2023-05-01",
+          "text": "It is so worth it if for nothing else to remove the ads. You get unlimited skips and free reign of song choice as well. If you know a few people you could also do the family plan and save so much money on premium that it would be stupid not to do it."
+        },
+        {
+          "uid": "comment:jpnyt3s",
+          "created": "2023-06-27",
+          "text": "I've been a premium subscriber for almost 10 years and I have never once thought to myself \"man, I really hate how people are getting Spotify for free\" It's weird to care \"Unfair to people who are actually paying for premium\". No one is forcing you to pay? You can do the 2 weeks free thing if you want."
+        }
+      ]
+    },
+    {
+      "segment_id": 2,
+      "size": 5992,
+      "share_pct": 21.6,
+      "name": "",
+      "top_terms": [
+        "spotify shuffle",
+        "spotify playlist",
+        "create playlists",
+        "multiple playlists",
+        "date added",
+        "truly random",
+        "playlist click",
+        "order songs",
+        "added liked",
+        "playlist playlist",
+        "hide song",
+        "playlist select"
+      ],
+      "signal_rate_pct": {
+        "price/cost": 0.8,
+        "cancel/leave": 2.6,
+        "alternatives": 7.0,
+        "lossless/hifi": 0.5,
+        "ads/free tier": 1.8,
+        "artists/royalties": 34.1,
+        "discovery/algo": 77.9,
+        "podcasts/books": 2.3,
+        "bugs/app": 3.0,
+        "family/student": 0.9
+      },
+      "kind_mix": {
+        "comment": 0.8,
+        "post": 0.2
+      },
+      "subreddit_mix": {
+        "spotify": 0.61,
+        "truespotify": 0.39,
+        "comics": 0.0
+      },
+      "unique_authors": 4163,
+      "median_words": 48,
+      "examples": [
+        {
+          "uid": "comment:johggcm",
+          "created": "2023-06-17",
+          "text": "I have some control issues so I have a ridiculous amount of playlists. As a result, sorting new songs take way too long for me to do it whenever I come across new songs, so I have a specific playlist where I can just add them quickly and go through and sort them later when I have the time. Right now I use the \u00abliked song\u00bb feature as a way of marking songs I don\u2019t listen to because they are too good (don\u2019t worry, they have their own playlist as well) but I wish there was more to it than just the "
+        },
+        {
+          "uid": "comment:ixsc4z8",
+          "created": "2022-11-25",
+          "text": "Sometimes a song pops up that I completely forgot I had on one of my playlists. I use the app a lot and my main playlist is 120 hours so I shouldn't see a ton of repeats on back to back days but sometimes I run into the same stuff every day. I also notice it tends to favor certain artists on a given day. You can listen to 20 songs and 5 of them will be the same artist. Then the next 20 will pick a different artists and you'll get 4 or 5 of theirs too."
+        },
+        {
+          "uid": "comment:jgsaia5",
+          "created": "2023-04-18",
+          "text": "Honestly I prefer this new feature I don\u2019t have my music all concentrate in one like playlist I have a bunch this makes it easier to add it to playlist, also liked song can\u2019t be made public"
+        },
+        {
+          "uid": "comment:j5t06mx",
+          "created": "2023-01-25",
+          "text": "I know right. Especially playlists that are full of singles by so many different artists. Did you see my other reply about the app \"virtual shuffle\" I swear when I started using it I heard songs I haven't heard in forever. There's even an option to randomly shuffle (with no repeats) until ALL songs are played."
+        },
+        {
+          "uid": "comment:jca7yep",
+          "created": "2023-03-15",
+          "text": "I refuse to listen to Spotify until this feature is restored! I was so angry yesterday when I went to make a playlist and couldn\u2019t make it the way I want it. I almost always include one song multiple times. From now on, I\u2019ll be getting music elsewhere."
+        },
+        {
+          "uid": "comment:impau1j",
+          "created": "2022-09-01",
+          "text": "Also, I once tried to listen to a Official Spotify playlist, but it kept changing seemingly at random. Since I tried it to find new songs or artists, I was annoyed af and don't plan to return to official playlist, unless it's by creating a copy"
+        },
+        {
+          "uid": "comment:je8d4kw",
+          "created": "2023-03-30",
+          "text": "So the new feature makes it so you can't shuffle your personal playlists without recommendations added from Spotify? I just want to shuffle my playlist of songs I've liked. This is pretty new. Pretty fucking lame if I have to suddenly skip songs in my playlists of liked songs. Edit: damn it spotify. Also, thanks for the reply guy"
+        },
+        {
+          "uid": "comment:itkdj95",
+          "created": "2022-10-24",
+          "text": "I've wanted this feature for ages! Maybe even just a little . that disappears if you've listened to the whole track, and maybe greys out if you've listened to under half. Specifically for curated playlists like you say."
+        },
+        {
+          "uid": "comment:jhbhzf1",
+          "created": "2023-04-22",
+          "text": "I find that Spotify only gives me artists and songs I already know about. Once I had so many songs in a playlist, I go nothing new."
+        },
+        {
+          "uid": "comment:iyg378u",
+          "created": "2022-12-01",
+          "text": "I don't want my randomization screwed up. Also I like every song I have to avoid spotify deciding what I want to hear whilst on random. I never skip songs, just move the play bar to the end. I will add things to the queue though! My efforts are most likely not helping. Also I have all my playlists just grouped by whenever I find a song to add, which leads to a lot of songs by one artist in a row, which is disagreeable."
+        },
+        {
+          "uid": "post:10zdt28",
+          "created": "2023-02-11",
+          "text": "I have been enjoying this feature i never knew existed and hats off... this is so good. The feature: Just go type 'picked just for you' in the search bar of the spotify app and open the playlists there. There would be around a thousand playlist made for you. Like actually what is Morning Easy Listening mix. But yeah there are a lot of good ones. These are the playlists that i've created using this feature and this has helped me to find a lot of new music. &#x200B; [mental equilibrium]( \\- when n"
+        },
+        {
+          "uid": "comment:jei4njk",
+          "created": "2023-04-01",
+          "text": "I never use mine as a playlist, except for when I want to listen to a certain artist, then I go to their page, click liked songs and shuffle"
+        }
+      ]
+    },
+    {
+      "segment_id": 3,
+      "size": 1924,
+      "share_pct": 6.9,
+      "name": "",
+      "top_terms": [
+        "best worst",
+        "com available",
+        "podcast episode",
+        "available podcast",
+        "spotify podcast",
+        "new episodes",
+        "app podcasts",
+        "podcaster",
+        "spotify podcasts",
+        "podcast app",
+        "podcast spotify",
+        "new podcasts"
+      ],
+      "signal_rate_pct": {
+        "price/cost": 1.9,
+        "cancel/leave": 2.8,
+        "alternatives": 4.1,
+        "lossless/hifi": 1.0,
+        "ads/free tier": 14.5,
+        "artists/royalties": 2.9,
+        "discovery/algo": 17.3,
+        "podcasts/books": 96.9,
+        "bugs/app": 3.0,
+        "family/student": 1.2
+      },
+      "kind_mix": {
+        "comment": 0.81,
+        "post": 0.19
+      },
+      "subreddit_mix": {
+        "spotify": 0.6,
+        "truespotify": 0.4
+      },
+      "unique_authors": 1378,
+      "median_words": 36,
+      "examples": [
+        {
+          "uid": "comment:j54n2re",
+          "created": "2023-01-20",
+          "text": "I wish they would stop putting the damn podcast at the top of the home page. Like Spotify, I listen to like 2 episodes a month, podcasts are NOT the reason why I personally use your app, show me the music."
+        },
+        {
+          "uid": "post:yww09h",
+          "created": "2022-11-16",
+          "text": "Half of my home screen is filled with podcasts now. I hate it, to the point I don\u2019t wanna use Spotify anymore. + I don\u2019t even care about the topics."
+        },
+        {
+          "uid": "comment:jfpz1s0",
+          "created": "2023-04-10",
+          "text": "I rarely listen to podcasts, but I decided to use Apple Podcasts if I ever do so, to keep things separate and show Spotify I don't want any suggestions. It took time but things look better now."
+        },
+        {
+          "uid": "comment:jmw1g5z",
+          "created": "2023-06-04",
+          "text": "This is why I never listen to podcasts on spotify, because i know that they will flood my homescreen with recommendations. Even my best friend has a podcast, and i listen to it on youtube!"
+        },
+        {
+          "uid": "comment:iui348l",
+          "created": "2022-10-31",
+          "text": "As you can see, I listen to a lot of podcasts. I enjoy the feature. However, I spent all of five minutes listening to \"Last podcast on the left\" before switching, because (no offense to fans of this podcast) I felt it was too juvenile for me. But it's on my homepage no matter how much I avoid it. I've brought this up to SpotifyCares and they replied with: >Hey there, thanks for the feedback! We always aim to improve, so we'll get this passed on to the right team. Let us know if you need anything"
+        },
+        {
+          "uid": "comment:ir9h844",
+          "created": "2022-10-06",
+          "text": "I have the same, but my wife doesn't. I'm assuming they're testing it or doing a rollout. I hate it with a burning passion. There's no way to hide any of the podcasts indefinitely and they're first and foremost when I open. I got Spotify for music, not podcasts. Made me mad enough that I'm looking into Deezer as an alternative. For those curious this is what I see: ["
+        },
+        {
+          "uid": "comment:jmz08yt",
+          "created": "2023-06-05",
+          "text": "exact same here, i do enjoy listening to podcasts but i never ever do that on spotify because i\u2019m scared that the second i will put a podcast on they will shove many more to me on my spotify homescreen"
+        },
+        {
+          "uid": "comment:jchub31",
+          "created": "2023-03-16",
+          "text": "This is a huge problem. Sometimes it takes me 2 weeks to listen to a podcast episode, and it\u2019ll disappear in this \u201cwhat\u2019s new\u201d feed. What was Spotify thinking\u2026."
+        },
+        {
+          "uid": "comment:ijuh7cl",
+          "created": "2022-08-11",
+          "text": "I use spotify for podcasts and they recently made a change that removed the feed for new episodes of podcasts you follow. Now you have to go to each podcast page to see new episodes, which is aggracvating to say the least. I totally believe that they can make it even worse"
+        },
+        {
+          "uid": "comment:iy6ua6z",
+          "created": "2022-11-29",
+          "text": "I fucking hate how podcasts are shoved in my face on an app FOR FUCKING MUSIC. I also love how I am shown podcasts I fucking hate (I even gave it a 1-star review), yet it is constantly in my \"your shows\" section, which doesn't even have the podcasts I actually follow! Every time I launch this stupid app I see that stupid fucking podcast, no matter how many other podcasts I listen to in order to have this one no longer recommended to me! Spotify, your app is complete shit. My friend list doesn't "
+        },
+        {
+          "uid": "comment:jpo6cm2",
+          "created": "2023-06-27",
+          "text": "This is exactly why I\u2019ve never listened to a podcast in Spotify, even with a few exclusive ones that I\u2019d really like to listen to. Not worth the further shit the app would turn into if I did."
+        },
+        {
+          "uid": "comment:jdx46dw",
+          "created": "2023-03-27",
+          "text": "I checked today and my UI for home looks like the same junk I\u2019ve grudgingly grown used to since quite a while back. I\u2019m still annoyed how much podcasts are shoved down my throat. I use Overcast on iOS for podcasts, which is sublime. I will never ever listen to a podcast on Spotify. Please let me hide them."
+        }
+      ]
+    },
+    {
+      "segment_id": 4,
+      "size": 5280,
+      "share_pct": 19.1,
+      "name": "",
+      "top_terms": [
+        "folk",
+        "think album",
+        "progressive",
+        "melodic",
+        "edm",
+        "psychedelic",
+        "singer songwriter",
+        "new undiscovered",
+        "30pm",
+        "time slots",
+        "disco",
+        "indie rock"
+      ],
+      "signal_rate_pct": {
+        "price/cost": 1.5,
+        "cancel/leave": 0.6,
+        "alternatives": 1.9,
+        "lossless/hifi": 1.9,
+        "ads/free tier": 0.6,
+        "artists/royalties": 50.6,
+        "discovery/algo": 52.9,
+        "podcasts/books": 0.7,
+        "bugs/app": 0.5,
+        "family/student": 1.7
+      },
+      "kind_mix": {
+        "comment": 0.59,
+        "post": 0.41
+      },
+      "subreddit_mix": {
+        "spotify": 0.84,
+        "truespotify": 0.15,
+        "Music": 0.0
+      },
+      "unique_authors": 3137,
+      "median_words": 32,
+      "examples": [
+        {
+          "uid": "post:xmtoua",
+          "created": "2022-09-24",
+          "text": "My personal and (almost) daily updated chart of new and undiscovered musicians. This time it's Indie Pop. Most of the musicians in my list usually have just a few hundred or thousand monthly listeners (with a few exceptions) but their songs are totally \"radio-ready\". Enjoy! **Current TOP 10:** 1. [Jack West - Finer]( 2. [Hunter - Closer]( 3. [CIAN - Feelin' Alright]( 4. [Nov\u00e9 - Claustrophobic]( 5. [Adelina - Out Of Love]( 6. [Stephen Paul Taylor (SPT) - Everybody Knows Sh\\*t's F\\*\\*\\*ed]( 7. [BA"
+        },
+        {
+          "uid": "post:xey9ua",
+          "created": "2022-09-15",
+          "text": "My personal and (almost) daily updated chart of new and undiscovered Indie musicians. All the musicians in my chart usually have just a few hundred/thousand monthly listeners but their songs are totally radio-ready. In the list, you will find mostly Indie Rock, Indie Folk and Indie Pop. Enjoy! **Current TOP 10:** 1. [Glossy Clouds - Nobody In the Dust]( 2. [Velvet Rouge - Save Me]( 3. [Magic Trash Party - Tokyo Glow]( 4. [Rebounder - Young Folks (cover)]( 5. [Ryan Mitchell - Jaded]( 6. [La Macar"
+        },
+        {
+          "uid": "post:140s1pv",
+          "created": "2023-06-04",
+          "text": "My personal and (almost) daily updated chart of upbeat Indie music from unknown artists. Most of the musicians in my playlist usually have just a few hundred or thousand monthly listeners (with a few exceptions) but their songs are totally \"radio-ready\". It's mostly Indie Rock, Pop and Folk. Enjoy! Here's a link directly to the playlist - [Indie | New & Undiscovered]( \\- or you can check the current TOP 10 first to get an idea ;-) **Current TOP 10:** 1. [Ripwilliams - Finding Sunshine]( 2. [De S"
+        },
+        {
+          "uid": "post:101ifbq",
+          "created": "2023-01-02",
+          "text": "My personal and daily updated chart of new and undiscovered musicians. This time it's Indie Pop. Most of the musicians in my list usually have just a few hundred or thousand monthly listeners (with a few exceptions) but their songs are totally \"radio-ready\". Enjoy! Here's a link to the whole playlist - [**Indie Pop | New & Undiscovered**]( **Current TOP 10:** 1. [**Michael Eddy - small towns**]( 2. [**Clayton Risner, Sommetimes - Ever After**]( 3. [**Taylor Sanders - Firecracker**]( 4. [**Filipp"
+        },
+        {
+          "uid": "post:y92yqw",
+          "created": "2022-10-20",
+          "text": "My personal and (almost) daily updated chart of new and undiscovered Indie musicians. All the musicians in my chart usually have just a few hundred/thousand monthly listeners but their songs are totally radio-ready. In the list, you will find mostly Indie Rock, Indie Folk and Indie Pop. Enjoy! Few weeks ago I shared the TOP 10 of my [Indie | New & Undiscovered]( playlist and it seems you kinda liked it so now, when the TOP 10 is completely different, I decided to hit you up with an update ;-) **"
+        },
+        {
+          "uid": "post:yexpre",
+          "created": "2022-10-27",
+          "text": "My personal and (almost) daily updated TOP 50 Chart of new and undiscovered musicians. All the musicians in my chart usually have just a few hundred or thousand monthly listeners but their songs are totally radio-ready. In the list, you will find mostly Indie Rock, Indie Folk and Indie Pop. Enjoy! Here you can find the whole playlist - [**TOP 50 CHART | The Best New & Undiscovered Artists**]( And below is the current Top 10 with links to the songs and the number of listeners of the artists. **Cu"
+        },
+        {
+          "uid": "post:yxuepq",
+          "created": "2022-11-17",
+          "text": "When small artists hit you hard\u2014this playlist will change your mind about how good the music is today. Indie/alt/rock under the radar updated continuously. Have a suggestion? Drop it below."
+        },
+        {
+          "uid": "post:yhuww4",
+          "created": "2022-10-31",
+          "text": "Just added some fresh tracks to this indie/alt/rock list of artists under the radar. Hit shuffle and it plays just as beautifully as it does in order"
+        },
+        {
+          "uid": "post:xc4kok",
+          "created": "2022-09-12",
+          "text": "If I could sum myself up using playlists, it would be these 5 [Artists # - D]( [Artists E - I]( [Artists J - N]( [Artists O - T]( [Artists U - Z]( This is years and years worth of listening (about 7800 tracks total), spanning across hundreds of different genres. All hand picked, never added in bulk. I pretty much have a theme song for everything. Genres lean slightly towards the alternative/dark side of things, but also has a mix of upbeat, relaxing, mainstream and/or chill tunes as well."
+        },
+        {
+          "uid": "post:yefk6i",
+          "created": "2022-10-27",
+          "text": "This playlist is all about discovery. If a song is worthy of your ears and attention, you\u2019ll find it here! Chill pop, indie rock, LoFi, Alternative, Electronic, etc."
+        },
+        {
+          "uid": "post:126ihef",
+          "created": "2023-03-30",
+          "text": "My personal and (almost) daily updated chart of upbeat Indie music from unknown artists. Most of the musicians in my playlist usually have just a few hundred or thousand monthly listeners (with a few exceptions) but their songs are totally \"radio-ready\". It's mostly Indie Rock, Pop and Folk. Enjoy! Here's a link directly to the playlist - [Indie | New &amp; Undiscovered]( \\- or you can check the current TOP 10 first to get an idea - next to the song there's a number of monthly listeners on Spoti"
+        },
+        {
+          "uid": "post:150ovob",
+          "created": "2023-07-15",
+          "text": "Trying to find more new artists for playlist Trying to find new artists to listen to but I\u2019m stumped atm. This playlist has a bit of everything I like but when I look for anything new I just find the same artists I\u2019m listening to already. There\u2019s no vibe just shit that\u2019s cool. I have a broad taste but I still have my suburaban white boy favs like Gorillaz, Tyler, Thundercat, Mac Miller etc. Lastly yes all my playlists are 1000 songs long I\u2019m just bored a lot haha."
+        }
+      ]
+    },
+    {
+      "segment_id": 5,
+      "size": 7590,
+      "share_pct": 27.4,
+      "name": "",
+      "top_terms": [
+        "appdata",
+        "exe",
+        "spotify wants",
+        "import files",
+        "cancelled spotify",
+        "spotify ios",
+        "quality spotify",
+        "spotify audio",
+        "spotify features",
+        "spotify local",
+        "ui spotify",
+        "thing spotify"
+      ],
+      "signal_rate_pct": {
+        "price/cost": 9.0,
+        "cancel/leave": 8.7,
+        "alternatives": 28.0,
+        "lossless/hifi": 11.7,
+        "ads/free tier": 5.9,
+        "artists/royalties": 18.2,
+        "discovery/algo": 30.6,
+        "podcasts/books": 6.4,
+        "bugs/app": 5.8,
+        "family/student": 3.6
+      },
+      "kind_mix": {
+        "comment": 0.84,
+        "post": 0.16
+      },
+      "subreddit_mix": {
+        "truespotify": 0.5,
+        "spotify": 0.49,
+        "AppleMusic": 0.0
+      },
+      "unique_authors": 4579,
+      "median_words": 49,
+      "examples": [
+        {
+          "uid": "comment:j1rv7ow",
+          "created": "2022-12-26",
+          "text": "Spotify is just another worthless company motivated by profits, it will never get fixed. They have slapped ads on premium users\u2019 podcasts now, music is only a matter of time. Nevermind an opportunity to have us all *accidentally* consume more content. I\u2019m sure they love it \ud83d\ude02 I just wish a talented musician commandeered my Alexa and not some schmuck who NEEDS to be sneaky to get his garbage heard."
+        },
+        {
+          "uid": "comment:jhet0je",
+          "created": "2023-04-23",
+          "text": "I switched to Apple Music during the Joe Rogan debacle and then switched back to Spotify after a few months, mainly because I\u2019m lazy and missed Spotify Connect. I just went back to AM again because I hated the new Spotify UX and I\u2019m getting the feeling that they have no interest in music, just podcasts and other crap. I have good speakers and HD 5XX headphones and to me there is a noticeable difference in quality. I also really like their curated playlists much better than Spotify\u2019s, and it feel"
+        },
+        {
+          "uid": "comment:iz7sw2w",
+          "created": "2022-12-07",
+          "text": "Spotify tested this a few months ago, as a lot of features, this comes earlier and free to the Apple Music users, god I hate being so loyal to Spotify"
+        },
+        {
+          "uid": "comment:jci5p9z",
+          "created": "2023-03-17",
+          "text": "Spotify really fucking every thing up, one of the biggest things they had going for it was it\u2019s UI, my biggest complaints being that for an update they now made it more difficult to \u201clike\u201d a song as you have to add it to a playlist now, also everybody operates from \u201cmy library\u201d, so when one wants to listen to a podcast they now have to leave their library and go to the home page, which I seldom ever use."
+        },
+        {
+          "uid": "comment:je1qpzp",
+          "created": "2023-03-28",
+          "text": "Okay so, my take then is that they\u2019re slowly constricting our access to our deeper catalog of saved albums and created playlists in an effort to force a greater reliance on promoted/algorithmic content. Spotify wants to make it more difficult for us actively manage and navigate our listening experience, hoping it will lull us into just playing whatever mixes they present to us. I\u2019m not paying for \u201c**Pandora+**\u201d, I\u2019m paying for unfettered access to a full music catalog and the tools to seek out a"
+        },
+        {
+          "uid": "comment:jmfie2m",
+          "created": "2023-06-01",
+          "text": "-Spotify\u2019s UI sucks. The \u201cyour library\u201d make no sense and it\u2019s too hard to actually view your music library in a nice list like in iTunes/Apple Music -Spotify is getting tik tok-ified -Spotify has too many social features -Spotify shoves podcasts in my face -Spotify shoves random pop up ads telling me about something I don\u2019t listen to who released something new -I\u2019ve had many issues trying to play back offline songs where it straight up wouldn\u2019t work -Spotify now shoves audiobooks in your face f"
+        },
+        {
+          "uid": "comment:jei0quu",
+          "created": "2023-04-01",
+          "text": "This is the possibly the single worst thing about Spotify, and they don\u2019t seem to care about fixing it anytime soon. It makes me want to continue using Apple Music as the majority, personally."
+        },
+        {
+          "uid": "comment:ija7ny8",
+          "created": "2022-08-07",
+          "text": "Spotify is utter dog shit with lossy audio quality and copy's from other platforms. shit GUI don't even let you listen in order unless you pay for premium. paying for premium doesn't help with anything. and don't forget Spotify started of commiting federal crimes before they could get rights to music just so people could use the platform. utter garbage switch to apple music or something else sure apple music is a.bit buggy but works better than Spotify."
+        },
+        {
+          "uid": "comment:javbkh6",
+          "created": "2023-03-04",
+          "text": "Yeah there\u2019s a lot I love about Spotify. Past few years their draw away from music started annoying me. I\u2019m not a tik tok guy I don\u2019t like this feature. I truly believe that some updates should have a setting to turn on old homepage because this will ostracize some users. No necessarily a lot, but I\u2019m feeling a little left out. I\u2019m still subscribed but I\u2019ve found I\u2019ve been using my Apple Music account more often lately. Not necessarily better but more in line with focus on music which I\u2019ve been "
+        },
+        {
+          "uid": "comment:jbh7ywp",
+          "created": "2023-03-09",
+          "text": "Gonna be lots of switchers after everyone gets the new horrible UI. HI FI is never gonna see Spotify as the company thinks no one cares about the quality of music. They are going now for the Tik Tok\u2019ers customers. The audiophiles and music lovers can go elsewhere. Fortunately there are lots of choices today for music streamers. Try them all as they all have free trials. I have used most of \u2018em, Tidal, Amazon Music, Napster, Apple Music and others. Apple Music is my choice right now. I loved Spot"
+        },
+        {
+          "uid": "comment:j133rpf",
+          "created": "2022-12-21",
+          "text": "According to Spotify's support chat I'm not eligible for Spotify Wrapped this year because I needed to do the following, \"You need listened to at least 5 different artists and 30 different tracks for at least 30 seconds each.\" \\*rolls eyes\\* Although I didn't use spotify that much this year, I'm pretty sure I listened to a variety of music and podcasts like I do every year. This really is the only music app I use if I don't go to youtube for missing music. I really miss the way spotify used to d"
+        },
+        {
+          "uid": "comment:jox7e0d",
+          "created": "2023-06-21",
+          "text": "The only thing I can give Spotify is their recommendations and even then I tried YouTube music once and still use the free version of it and their recommendations are even better! This I must say is there Apple Music lacks. Otherwise in Spotify I have to keep pressing so many buttons to get to where the hell i want lately it\u2019s insane"
+        }
+      ]
+    }
+  ]
+}

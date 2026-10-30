@@ -1,0 +1,29 @@
+{
+  "name": "Marcus",
+  "label": "Multi-playlist builder weighing Apple Music",
+  "who": "I am a Spotify user who manages many playlists and adds songs to several at once, and I have paid for a subscription. I care about playlist tools that let me add songs quickly, keep my liked songs visible, and avoid auto-playing video while I browse.",
+  "value_for_money": "Says basic features like liking songs should not sit behind a paywall, and suspects new features will be bundled into a higher tier. Says they would pay an add-on to get the heart button back on mobile.",
+  "price_sensitivity": "medium",
+  "loyalty": "Stays for the ability to add a song to several playlists at once. Has threatened to switch to Apple Music or unsubscribe over playlist changes and video clips.",
+  "pain_points": [
+    "Liked songs are now mixed into the playlist update",
+    "Cannot see liked tracks inside playlists",
+    "Auto-playing video clips appear while browsing playlists",
+    "Playlists can no longer be shared"
+  ],
+  "likes": [
+    "Adding a song to several playlists at once",
+    "Weekly Recommend Playlist"
+  ],
+  "alternatives_mentioned": ["Apple Music"],
+  "tone": "Earnest and mildly exasperated, writing in full sentences with occasional swearing and all-caps emphasis.",
+  "typical_phrases": [
+    "switching back to Apple Music",
+    "add to multiple playlists",
+    "liked songs playlist",
+    "playing recommended songs",
+    "heart button",
+    "might unsubscribe"
+  ],
+  "evidence_ids": [3, 8, 12, 14, 24]
+}

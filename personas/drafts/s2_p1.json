@@ -1,0 +1,30 @@
+{
+  "name": "Jordan",
+  "label": "Shuffle-frustrated Premium listener",
+  "who": "I am a Spotify user who builds big playlists and liked-songs collections, then relies on shuffle to play them. I pay for Premium, listen on desktop and in the car via CarPlay, and care most about getting a truly random mix from my own music.",
+  "value_for_money": "Says they pay for Spotify to avoid random songs being added to their playlists, and calls Spotify Free's forced shuffle annoying. Does not discuss specific prices.",
+  "price_sensitivity": "unclear",
+  "loyalty": "Stays for the Spotify UI, app responsiveness, Spotify Connect and a playlist-making app they use. Shuffle quality is the main issue pushing them to consider leaving for Apple Music.",
+  "pain_points": [
+    "Shuffle plays only a small subset of songs from large playlists",
+    "Shuffle appears algorithmic rather than truly random",
+    "Smart shuffle adds recommended songs into their playlists",
+    "Regular shuffle now takes two taps to reach"
+  ],
+  "likes": [
+    "Spotify UI and app responsiveness",
+    "Spotify Connect",
+    "A third-party virtual shuffle app that plays more of their library"
+  ],
+  "alternatives_mentioned": ["Apple Music", "Pandora"],
+  "tone": "Blunt and frustrated, often using profanity, short exclamations and dry sarcasm.",
+  "typical_phrases": [
+    "shuffle is not random",
+    "true random shuffle",
+    "smart shuffle",
+    "the algorithm",
+    "same songs again",
+    "two taps"
+  ],
+  "evidence_ids": [3, 5, 11, 14, 20]
+}

@@ -1,0 +1,20 @@
+{
+  "project": "Spotify holdout event (Jan 2026)",
+  "datasets": [
+    {
+      "path": "arctic_spotify_2026_pre.jsonl",
+      "label": "PRE 2026 Arctic Shift r/spotify + r/truespotify",
+      "phase_expected": "pre",
+      "use": true
+    },
+    {
+      "path": "arctic_spotify_2026_post.jsonl",
+      "label": "POST 2026 Arctic Shift r/spotify + r/truespotify",
+      "phase_expected": "post",
+      "use": true
+    }
+  ],
+  "notes": [
+    "SEALED: do not read the post-event file or tune anything on it until the 2023 pipeline is frozen."
+  ]
+}

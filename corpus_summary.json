@@ -1,0 +1,144 @@
+{
+  "total_rows": 210920,
+  "by_phase": {
+    "pre": 202676,
+    "post": 8211,
+    "out_of_window": 31,
+    "leak_gap": 2
+  },
+  "by_role": {
+    "persona_source": 202676,
+    "ground_truth": 8211,
+    "excluded": 33
+  },
+  "by_kind": {
+    "post": 65393,
+    "comment": 145527
+  },
+  "top_subreddits_persona_source": [
+    [
+      "spotify",
+      150785
+    ],
+    [
+      "truespotify",
+      50395
+    ],
+    [
+      "BestofRedditorUpdates",
+      251
+    ],
+    [
+      "AmItheAsshole",
+      158
+    ],
+    [
+      "Superstonk",
+      74
+    ],
+    [
+      "HFY",
+      53
+    ],
+    [
+      "dataisbeautiful",
+      43
+    ],
+    [
+      "antiwork",
+      42
+    ],
+    [
+      "assholedesign",
+      41
+    ],
+    [
+      "AppleMusic",
+      32
+    ],
+    [
+      "LifeProTips",
+      31
+    ],
+    [
+      "MaliciousCompliance",
+      30
+    ],
+    [
+      "ChatGPT",
+      27
+    ],
+    [
+      "TrueOffMyChest",
+      23
+    ],
+    [
+      "meirl",
+      22
+    ]
+  ],
+  "top_subreddits_ground_truth": [
+    [
+      "spotify",
+      5141
+    ],
+    [
+      "truespotify",
+      2456
+    ],
+    [
+      "AppleMusic",
+      137
+    ],
+    [
+      "wallstreetbets",
+      110
+    ],
+    [
+      "stocks",
+      69
+    ],
+    [
+      "Piracy",
+      56
+    ],
+    [
+      "debtfree",
+      55
+    ],
+    [
+      "memes",
+      39
+    ],
+    [
+      "BestofRedditorUpdates",
+      39
+    ],
+    [
+      "entertainment",
+      21
+    ],
+    [
+      "malaysia",
+      20
+    ],
+    [
+      "plutus",
+      10
+    ],
+    [
+      "AutoNewspaper",
+      8
+    ],
+    [
+      "opscanbot",
+      8
+    ],
+    [
+      "mildlyinfuriating",
+      7
+    ]
+  ],
+  "persona_source_mentioning_spotify": 43818,
+  "ground_truth_price_related": 805
+}

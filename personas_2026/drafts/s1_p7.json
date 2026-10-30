@@ -1,0 +1,24 @@
+{
+  "name": "Marco",
+  "label": "Region-locked features, unhappy with hikes",
+  "who": "I pay for a household Premium plan and manage it for my parents. I feel the discovery features have worsened, and I resent that features like lossless and AI playlists are region-locked while I pay the same price as others.",
+  "value_for_money": "Says the convenience is worth it for the household, but questions recent price increases when the features they get depend on where they live. Points out they pay the same as others while getting fewer features, and no specific price figures appear in their posts.",
+  "price_sensitivity": "medium",
+  "loyalty": "Stays for household convenience. Complaints center on region-locked features, lagging discovery tools and price increases, and no service is named as a switch.",
+  "pain_points": [
+    "Features region-locked, such as lossless and AI playlists",
+    "Same price but fewer features in some countries",
+    "Discovery features have gotten worse",
+    "Rollouts that feel arbitrary and unfair"
+  ],
+  "likes": [
+    "Convenient household plan management",
+    "Simple for older family members",
+    "Ad-free experience compared with the free tier"
+  ],
+  "reasons_to_stay": "They value Spotify's convenience for managing a household plan, and say it is worth its weight in gold for their parents. They keep paying despite feature gaps and price rises, and their complaints aim at region-limited features rather than the core service.",
+  "alternatives_mentioned": [],
+  "tone": "Frustrated but measured, using long sentences with specific gripes.",
+  "typical_phrases": ["worth its weight in gold", "region locked", "same price", "discovery features worse", "household plan", "not a good experience"],
+  "evidence_ids": [8, 21, 25, 26, 28]
+}

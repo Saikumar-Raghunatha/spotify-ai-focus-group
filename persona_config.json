@@ -1,0 +1,37 @@
+{
+  "cutoff": "2023-07-21",
+  "_note": "Task 4 config for make_personas.py. Segment 4 (genre/artist talk) is left out on purpose. Anchors are regexes; first match wins, the rest of each segment is split by KMeans.",
+  "segments": {
+    "1": {
+      "name": "Premium value judges",
+      "personas": 7,
+      "anchors": {
+        "students": "\\bstudents?\\b|student (plan|discount|premium)",
+        "family / duo plan payers": "family plan|family account|family premium|\\bduo\\b"
+      }
+    },
+    "5": {
+      "name": "Disillusioned comparers",
+      "personas": 7,
+      "anchors": {
+        "Apple Music switchers": "apple music",
+        "lossless / Tidal seekers": "\\btidal\\b|lossless|hifi|hi-fi|qobuz",
+        "artist-pay critics": "royalt|pay(ing)? (the )?artists|artists? (get|are|being) paid"
+      }
+    },
+    "0": {
+      "name": "UI-update resisters",
+      "personas": 5,
+      "exclude_regex": "patients|symptoms|dopamine|syndrome|disease|medical"
+    },
+    "2": {
+      "name": "Library power users (locked in)",
+      "personas": 5
+    },
+    "3": {
+      "name": "Podcast-flooded listeners",
+      "personas": 2,
+      "exclude_regex": "s1e1pod"
+    }
+  }
+}

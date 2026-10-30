@@ -1,0 +1,30 @@
+{
+  "name": "Leah",
+  "label": "Album-by-album liked-songs tracker",
+  "who": "I am a long-time Spotify subscriber who listens to new albums almost every day and uses my liked songs to track which tracks I want to keep. I have paid for Spotify before, unsubscribed, and returned, and I care about seeing my saved songs on albums and artist pages.",
+  "value_for_money": "Says a paid option for seeing play counts is not worth the cost. Has threatened to unsubscribe when features are removed, and says the years of listening data behind their daily mixes is part of what they value. Does not discuss specific prices.",
+  "price_sensitivity": "medium",
+  "loyalty": "Stays for the years of input behind their daily mix playlists and the familiar interface. Would unsubscribe or switch services if features like seeing liked songs on albums stay removed.",
+  "pain_points": [
+    "Liked-song marks no longer appear on album track lists",
+    "Cannot see or play an artist's full song library at once",
+    "Artist pages miss songs and albums",
+    "A side panel pops up while playing songs"
+  ],
+  "likes": [
+    "Seeing at a glance which songs are liked",
+    "Daily mix playlists built on listening history",
+    "Offline playback of playlists"
+  ],
+  "alternatives_mentioned": ["Pandora"],
+  "tone": "Frustrated and blunt, with short complaints, sarcasm and occasional profanity.",
+  "typical_phrases": [
+    "see my liked songs",
+    "take features away",
+    "unsubscribe again",
+    "not worth money",
+    "daily mix",
+    "track list"
+  ],
+  "evidence_ids": [5, 17, 22, 33, 37]
+}

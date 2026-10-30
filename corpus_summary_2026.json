@@ -1,0 +1,22 @@
+{
+  "total_rows": 94758,
+  "by_phase": {
+    "pre": 94758
+  },
+  "by_role": {
+    "persona_source": 94758
+  },
+  "by_kind": {
+    "post": 36282,
+    "comment": 58476
+  },
+  "top_subreddits_persona_source": [
+    [
+      "spotify",
+      94758
+    ]
+  ],
+  "top_subreddits_ground_truth": [],
+  "persona_source_mentioning_spotify": 23423,
+  "ground_truth_price_related": 0
+}

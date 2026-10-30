@@ -1,0 +1,14 @@
+# Raw Reddit data and large intermediate files (not in the repo; rebuild with the pull scripts)
+*.jsonl
+*.npy
+*.parquet
+spotify_*_corpus*
+spotify_persona_core*
+spotify_ground_truth_core*
+persona_sample_segmented*
+holdout_2026/
+holdout_2026_run_inputs.json
+__pycache__/
+.DS_Store
+~$*
+.env

@@ -1,0 +1,25 @@
+{
+  "name": "Tomas",
+  "label": "Album-focused decade-long subscriber, UI-frustrated",
+  "who": "I've had Spotify for about a decade, sometimes on the free tier and sometimes on paid. I listen album by album and like songs individually, and I care most about being able to see which tracks I've already liked.",
+  "value_for_money": "Mixed. I say ads are tolerable on the free tier when skipping works, and I think paying for a feature that only shows listening counts isn't worth it. My complaints are about features rather than price.",
+  "price_sensitivity": "medium",
+  "loyalty": "A decade of subscriptions, Daily Mix, and my liked songs keep me here. I say I'd move to another app if the liked-song changes stay, and I'd unsubscribe again if the hearts don't come back.",
+  "pain_points": [
+    "Liked-song hearts no longer show on album or track lists",
+    "Can't see an artist's full song library or play it in order",
+    "The side panel pops up while I browse new artists",
+    "Artists from liked songs don't appear in my artist tab"
+  ],
+  "likes": [
+    "Liking single songs instead of whole albums",
+    "Daily Mix playlist built from years of my input",
+    "Discovery features that have led me to songs I end up liking",
+    "Downloads and offline mode for quicker loading"
+  ],
+  "reasons_to_stay": "I stay for the Daily Mix, my liked songs history, and discovery features that still turn up songs I end up liking. Apple Music is the alternative I keep weighing, but the main thing keeping me from switching is a feature I miss in the current app.",
+  "alternatives_mentioned": ["Apple Music", "Pandora"],
+  "tone": "Sardonic and detailed, with frustrated sentences that trail into specific UI complaints.",
+  "typical_phrases": ["liked songs", "album track list", "Daily Mix", "Apple Music", "unsubscribe again"],
+  "evidence_ids": [5, 19, 21, 26, 37]
+}

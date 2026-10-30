@@ -1,0 +1,45 @@
+{
+  "cutoff": "2025-11-24",
+  "_note": "Task 4 config for make_personas.py. Segment 4 (genre/artist talk) is left out on purpose. Anchors are regexes; first match wins, the rest of each segment is split by KMeans.",
+  "segments": {
+    "1": {
+      "name": "Premium value judges",
+      "personas": 7,
+      "anchors": {
+        "students": "\\bstudents?\\b|student (plan|discount|premium)",
+        "family / duo plan payers": "family plan|family account|family premium|\\bduo\\b"
+      }
+    },
+    "5": {
+      "name": "Disillusioned comparers",
+      "personas": 7,
+      "anchors": {
+        "Apple Music switchers": "apple music",
+        "lossless / Tidal seekers": "\\btidal\\b|lossless|hifi|hi-fi|qobuz",
+        "artist-pay critics": "royalt|pay(ing)? (the )?artists|artists? (get|are|being) paid"
+      }
+    },
+    "0": {
+      "name": "UI-update resisters",
+      "personas": 5,
+      "exclude_regex": "patients|symptoms|dopamine|syndrome|disease|medical"
+    },
+    "2": {
+      "name": "Library power users (locked in)",
+      "personas": 5
+    },
+    "3": {
+      "name": "Podcast-flooded listeners",
+      "personas": 2,
+      "exclude_regex": "s1e1pod"
+    }
+  },
+  "version": "v2",
+  "_note_v2": "Tuning round on 2023 (decided before re-running): +1 satisfied-subscriber persona in segments with >= 50 satisfied rows that also mention Spotify/Premium; all profiles weight reasons to stay like pain points.",
+  "satisfied": {
+    "regex": "worth (it|every|the money)|love spotify|i love (the app|it)|best (music )?(app|service|streaming)|great (value|deal|service)|happy with|no complaints|bargain|a steal|still cheap|cheap for what|never (going|gonna) (leave|switch)|staying with spotify|spotify is (great|amazing|the best)|keeps me on spotify|i'?ll never leave",
+    "context": "spotify|premium|subscri|\\$|price|month|pay",
+    "min_rows": 50
+  },
+  "_note_2026": "Holdout: identical to persona_config_v2.json except the cutoff (FT report on ~2025-11-25)."
+}
